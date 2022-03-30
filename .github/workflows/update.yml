@@ -1,0 +1,29 @@
+name: "RUN ITDE-GET"
+
+on:
+  schedule:
+    - cron:  '0 */12 * * *' # Every 12 Hours 
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+       - name: Checkout
+         uses: actions/checkout@v2
+       - name: Setup Python
+         uses: actions/setup-python@v1
+         with:
+          python-version: 3.9
+       - name: Install requirements:
+         run: pip3 install -r requirements.txt
+       - name: RUN ITDE-GET
+         run: python3 ITDE-Get.py
+       - uses: stefanzweifel/git-auto-commit-action@v4
+         with:
+          commit_message: 'Auto: RUN ITDE-Get'
+          repository: .
+          commit_user_name: New-dev0
+          commit_user_email: Newdev0@outlook.com
+          commit_author: Devesh Pal <Newdev0@outlook.com>
+          
