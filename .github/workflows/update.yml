@@ -18,6 +18,8 @@ jobs:
          run: pip3 install -r requirements.txt
        - name: Install Git LFS
          run: curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+       - name: Install LFS
+         run: git lfs install
        - name: RUN ITDE-GET
          run: python3 ITDE-Get.py
        - uses: stefanzweifel/git-auto-commit-action@v4
