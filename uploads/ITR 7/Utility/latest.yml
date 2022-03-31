@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8597cdcd8b4e9617fdd436185cff52216f1d3aa756acfb9da2b457071fe9e7cf
-size 358
+version: 1.0.17
+files:
+  - url: ITDe-Filing_7 Setup 1.0.17.exe
+    sha512: woXsfzQb9PSU2tiW6UZlOpKc3oG0neGqRlssIxD0OckNu4oYEId6rvyhJmy8OEAxWL7O92QCK44hhN6RVw5wdQ==
+    size: 102772034
+path: ITDe-Filing_7 Setup 1.0.17.exe
+sha512: woXsfzQb9PSU2tiW6UZlOpKc3oG0neGqRlssIxD0OckNu4oYEId6rvyhJmy8OEAxWL7O92QCK44hhN6RVw5wdQ==
+releaseDate: '2022-03-04T09:14:40.575Z'

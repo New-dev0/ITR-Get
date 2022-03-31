@@ -1,3 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:56e6d1ce18753a1fe903926ab678700b8ba496f19aea91eb52a7d820ef7143ec
-size 262
+CSV import :
+
+Either fill data in Schedule 112A / Schedule 115AD as applicable  or import CSV. If data is partially filled and if you want to import CSV file, delete the data from utility and then import CSV file with all the data to avoid duplication of data.

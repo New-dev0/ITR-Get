@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c5c3d8ba5574270a8d66c92703b6bdc800e676dd33a65f611245213a4b6f9048
-size 746
+Share/Unit acquired(1a),ISIN Code(2),Name of the Share/Unit(3),No. of Shares/Units(4),Sale-price per Share/Unit(5),"Full Value Consideration
+If shares are acquired on or before 31.01.2018- Total Sale Value (4*5)   or  If  shares are Acquired after 31st January 2018 - Please enter Full Value of Consideration . (6)",Cost of acquisition without indexation  (higher of 8 or 9)(7),Cost of acquisition(8),"If the long term capital asset was acquired before 01.02.2018, lower of 11 & 6 (9)",Fair Market Value per share/unit as on 31st January 2018(10),Total Fair Market Value of capital asset as per section 55(2)(ac)(11) = 4 * 10,Expenditure wholly and exclusively in connection with transfer(12),Total deductions(13) = 7 + 12,Balance(14) = 6 - 13,
