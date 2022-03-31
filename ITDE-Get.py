@@ -4,6 +4,7 @@ import os
 import json
 import asyncio, aiofiles
 from glob import glob
+from os import system
 from bs4 import BeautifulSoup
 
 README = """
@@ -54,8 +55,9 @@ async def download(file, Path):
     await write_file(await get(file["href"]), name)
     ORIG_PATH = f"{Path}/{dirname}"
 
-    if not os.path.exists(ORIG_PATH):
-        os.mkdir(ORIG_PATH)
+    if os.path.exists(ORIG_PATH):
+        system(f"rm -rf '{ORIG_PATH}'")
+    os.mkdir(ORIG_PATH)
 
     with zipfile.ZipFile(name) as file:
         file.extractall(ORIG_PATH)
