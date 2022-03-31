@@ -8,7 +8,7 @@ from os import system
 from bs4 import BeautifulSoup
 
 README = """
-# ITDE-Utility tool (exe) + Schema Scrapper\n\n
+# ITR-Utility tool (exe) + Schema Scrapper\n\n
 """
 
 print("Starting Up!")
@@ -17,6 +17,8 @@ URL = "https://www.incometax.gov.in/iec/foportal/downloads"
 PAGE_DL_DIR = "fportal-downloads"
 DATA_DL_DIR = "uploads"
 TEMP_DL_DIR = "tmp"
+BASE_GIT = "https://github.com/New-dev0/ITDE-Get/tree/main/"
+DL_GIT = "https://github.com/New-dev0/ITR-Get/raw/main/"
 
 if not os.path.exists(PAGE_DL_DIR):
     print("Creating Download Directory..")
@@ -65,7 +67,12 @@ async def download(file, Path):
     for JsonPath in glob(ORIG_PATH + "/*/*/latest.json"):
         open(JsonPath, "w").write(json.dumps(json.load(open(JsonPath, "r")), indent=1))
 
-    README += f"\n- [{dirname}](/{ORIG_PATH})"
+    for File on glob(ORIG_PATH + "/*/*"):
+        if File.endswith(("exe", "dmg")):
+            url = DL_GIT + FILE
+        else:
+            url = BASE_GIT + File
+        README += f"<br><br> - [{File.split()[-1]}]({url})"
 
     os.remove(name)
     print(f">>> Finished Extracting {name}")
@@ -73,7 +80,7 @@ async def download(file, Path):
 
 async def main():
     global README
-    print("Getting ITDE Downloads Page...")
+    print("Getting ITR Downloads Page...")
     PAGE_CONTENT = await get(URL)
 
     await write_file(PAGE_CONTENT, PAGE_DL_DIR + "/downloads.html")
@@ -101,7 +108,7 @@ async def main():
 
 asyncio.run(main())
 
-README += "\n\n__README too is Auto-Generated.___"
+README += "<br><br>__README too is Auto-Generated.__"
 
 os.remove("README.md")
 open("README.md", "w").write(README)
