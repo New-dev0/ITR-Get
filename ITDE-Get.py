@@ -67,7 +67,7 @@ async def download(file, Path):
     for JsonPath in glob(ORIG_PATH + "/*/*/latest.json"):
         open(JsonPath, "w").write(json.dumps(json.load(open(JsonPath, "r")), indent=1))
 
-    for File on glob(ORIG_PATH + "/*/*"):
+    for File in glob(ORIG_PATH + "/*/*"):
         if File.endswith(("exe", "dmg")):
             url = DL_GIT + FILE
         else:
