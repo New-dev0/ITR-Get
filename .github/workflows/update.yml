@@ -23,6 +23,7 @@ jobs:
        - name: RUN ITDE-GET
          run: python3 ITDE-Get.py
        - uses: stefanzweifel/git-auto-commit-action@v4
+         continue-on-error: true
          with:
           commit_message: 'Auto: RUN ITDE-Get'
           repository: .
