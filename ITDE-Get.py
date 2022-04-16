@@ -1,10 +1,12 @@
 import zipfile
+import shutil
 from aiohttp import ClientSession
 import os
 import json
 import asyncio, aiofiles
 from glob import glob
 from os import system
+from urllib.parse import unquote
 from bs4 import BeautifulSoup
 
 print("Starting Up!")
@@ -45,9 +47,8 @@ async def write_file(content, name):
 
 
 async def download(file, Path):
-    # global README
     dirname = file.text.strip()
-    name = TEMP_DL_DIR + "/" + dirname + ".zip"
+    name = TEMP_DL_DIR + "/" + unquote(file["href"].split("/")[-1])
 
     print(f">> Downloading {name}")
     await write_file(await get(file["href"]), name)
@@ -57,25 +58,20 @@ async def download(file, Path):
         system(f"rm -rf '{ORIG_PATH}'")
     os.mkdir(ORIG_PATH)
 
-    with zipfile.ZipFile(name) as file:
-        file.extractall(ORIG_PATH)
+    if name.endswith((".zip")):
+        with zipfile.ZipFile(name) as file:
+            file.extractall(ORIG_PATH)
+    else:
+        shutil.move(name, ORIG_PATH)
 
     for JsonPath in glob(ORIG_PATH + "/**/latest.json"):
         open(JsonPath, "w").write(json.dumps(json.load(open(JsonPath, "r")), indent=1))
-
-    # for File in glob(ORIG_PATH + "/**/*"):
-    #    if File.endswith(("exe", "dmg")):
-    #        url = DL_GIT + FILE
-    #    else:
-    #        url = BASE_GIT + File
-    #    README += f"<br><br> - [{File.split()[-1]}]({url})"
 
     os.remove(name)
     print(f">>> Finished Extracting {name}")
 
 
 async def main():
-    # global README
     print("Getting ITR Downloads Page...")
     PAGE_CONTENT = await get(URL)
 
@@ -95,19 +91,12 @@ async def main():
         if not os.path.exists(MainPath):
             os.mkdir(MainPath)
 
-        # README += f"\n## {Header}"
-
         for File in Files:
             TASKS.append(download(File, MainPath))
         await asyncio.gather(*TASKS)
 
 
 asyncio.run(main())
-
-# README += "<br><br>__README too is Auto-Generated.__"
-
-# os.remove("README.md")
-# open("README.md", "w").write(README)
 
 # Clean Up After Work
 os.removedirs(TEMP_DL_DIR)
