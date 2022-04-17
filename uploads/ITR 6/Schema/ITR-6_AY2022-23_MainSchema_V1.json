@@ -5,187 +5,7 @@
     "properties": {
         "ITR": {
             "$ref": "#/definitions/ITR"
-        },
-		"CreationInfo": {
-                    "$ref": "#/definitions/CreationInfo"
-                },
-                "Form_ITR6": {
-                    "$ref": "#/definitions/Form_ITR6"
-                },
-                "PartA_GEN1": {
-                    "$ref": "#/definitions/PartA_GEN1"
-                },
-                "PartA_GEN2For6": {
-                    "$ref": "#/definitions/PartA_GEN2For6"
-                },
-                "PARTA_BSFor6FrmAY13": {
-                    "$ref": "#/definitions/PARTA_BSFor6FrmAY13"
-                },
-                "PARTA_BSIndAS": {
-                    "$ref": "#/definitions/PARTA_BSIndAS"
-                },
-                "ManufacturingAccount": {
-                    "$ref": "#/definitions/ManufacturingAccount"
-                },
-                "TradingAccount": {
-                    "$ref": "#/definitions/TradingAccount"
-                },
-                "PARTA_PL": {
-                    "$ref": "#/definitions/PARTA_PL"
-                },
-                "ManufacturingAccountIndAS": {
-                    "$ref": "#/definitions/ManufacturingAccountIndAS"
-                },
-                "TradingAccountIndAS": {
-                    "$ref": "#/definitions/TradingAccountIndAS"
-                },
-                "PARTA_PLIndAS": {
-                    "$ref": "#/definitions/PARTA_PLIndAS"
-                },
-                "PARTA_OI": {
-                    "$ref": "#/definitions/PARTA_OI"
-                },
-                "PARTA_QD": {
-                    "$ref": "#/definitions/PARTA_QD"
-                },
-                "PARTA_OL": {
-                    "$ref": "#/definitions/PARTA_OL"
-                },
-                "ScheduleHP": {
-                    "$ref": "#/definitions/ScheduleHP"
-                },
-                "CorpScheduleBP": {
-                    "$ref": "#/definitions/CorpScheduleBP"
-                },
-                "ScheduleDPM": {
-                    "$ref": "#/definitions/ScheduleDPM"
-                },
-                "ScheduleDOA": {
-                    "$ref": "#/definitions/ScheduleDOA"
-                },
-                "ScheduleDEP": {
-                    "$ref": "#/definitions/ScheduleDEP"
-                },
-                "ScheduleDCG": {
-                    "$ref": "#/definitions/ScheduleDCG"
-                },
-                "ScheduleESR": {
-                    "$ref": "#/definitions/ScheduleESR"
-                },
-                "ScheduleCG": {
-                    "$ref": "#/definitions/ScheduleCG"
-                },
-                "Schedule112A": {
-                    "$ref": "#/definitions/Schedule112A"
-                },
-                "Schedule115AD": {
-                    "$ref": "#/definitions/Schedule115AD"
-                },
-                "ScheduleOS": {
-                    "$ref": "#/definitions/ScheduleOS"
-                },
-                "ScheduleCYLA": {
-                    "$ref": "#/definitions/ScheduleCYLA"
-                },
-                "ScheduleBFLA": {
-                    "$ref": "#/definitions/ScheduleBFLA"
-                },
-                "ScheduleCFL": {
-                    "$ref": "#/definitions/ScheduleCFL"
-                },
-                "ITRScheduleUD": {
-                    "$ref": "#/definitions/ITRScheduleUD"
-                },
-                "ScheduleICDS": {
-                    "$ref": "#/definitions/ScheduleICDS"
-                },
-                "Schedule10AA": {
-                    "$ref": "#/definitions/Schedule10AA"
-                },
-                "Schedule80G": {
-                    "$ref": "#/definitions/Schedule80G"
-                },
-                "Schedule80GGA": {
-                    "$ref": "#/definitions/Schedule80GGA"
-                },
-                "Schedule80RA": {
-                    "$ref": "#/definitions/Schedule80RA"
-                },
-                "Schedule80_IA": {
-                    "$ref": "#/definitions/Schedule80_IA"
-                },
-                "Schedule80_IB": {
-                    "$ref": "#/definitions/Schedule80_IB"
-                },
-                "Schedule80_IC": {
-                    "$ref": "#/definitions/Schedule80_IC"
-                },
-                "ScheduleVIA": {
-                    "$ref": "#/definitions/ScheduleVIA"
-                },
-                "ScheduleSI": {
-                    "$ref": "#/definitions/ScheduleSI"
-                },
-                "ScheduleEI": {
-                    "$ref": "#/definitions/ScheduleEI"
-                },
-                "SchedulePTI": {
-                    "$ref": "#/definitions/SchedulePTI"
-                },
-                "ScheduleMAT": {
-                    "$ref": "#/definitions/ScheduleMAT"
-                },
-                "ScheduleMATC": {
-                    "$ref": "#/definitions/ScheduleMATC"
-                },
-                "ScheduleBBS": {
-                    "$ref": "#/definitions/ScheduleBBS"
-                },
-                "ScheduleTPSA": {
-                    "$ref": "#/definitions/ScheduleTPSA"
-                },
-                "ScheduleFSI": {
-                    "$ref": "#/definitions/ScheduleFSI"
-                },
-                "ScheduleTR1": {
-                    "$ref": "#/definitions/ScheduleTR1"
-                },
-                "ScheduleFA": {
-                    "$ref": "#/definitions/ScheduleFA"
-                },
-                "ScheduleSH": {
-                    "$ref": "#/definitions/ScheduleSH"
-                },
-                "ScheduleAL": {
-                    "$ref": "#/definitions/ScheduleAL"
-                },
-                "ScheduleGST": {
-                    "$ref": "#/definitions/ScheduleGST"
-                },
-                "ScheduleFD": {
-                    "$ref": "#/definitions/ScheduleFD"
-                },
-                "PartB-TI": {
-                    "$ref": "#/definitions/PartB-TI"
-                },
-                "PartB_TTI": {
-                    "$ref": "#/definitions/PartB_TTI"
-                },
-                "ScheduleIT": {
-                    "$ref": "#/definitions/ScheduleIT"
-                },
-                "ScheduleTDS2": {
-                    "$ref": "#/definitions/ScheduleTDS2"
-                },
-                "ScheduleTDS3": {
-                    "$ref": "#/definitions/ScheduleTDS3"
-                },
-                "ScheduleTCS": {
-                    "$ref": "#/definitions/ScheduleTCS"
-                },
-                "Verification": {
-                    "$ref": "#/definitions/Verification"
-                }
+        }
     },
     "definitions": {
         "ITR": {
@@ -321,6 +141,9 @@
                 "ScheduleSI": {
                     "$ref": "#/definitions/ScheduleSI"
                 },
+				"ScheduleIF": {
+                    "$ref": "#/definitions/ScheduleIF"
+                },
                 "ScheduleEI": {
                     "$ref": "#/definitions/ScheduleEI"
                 },
@@ -392,8 +215,6 @@
                 "PARTA_PL",
                 "PARTA_PLIndAS",
                 "CorpScheduleBP",
-                "ScheduleMAT",
-                "ScheduleMATC",
                 "PartB-TI",
                 "PartB_TTI",
                 "Verification"
@@ -484,7 +305,7 @@
                     ]
                 },
                 "AssessmentYear": {
-                    "pattern": "2021",
+                    "pattern": "2022",
                     "allOf": [
                         {
                             "$ref": "#/definitions/nonEmptyString"
@@ -494,7 +315,7 @@
                 "SchemaVer": {
                     "maxLength": 10,
                     "minLength": 1,
-                    "pattern": "Ver1.1",
+                    "pattern": "Ver1.0",
                     "allOf": [
                         {
                             "$ref": "#/definitions/nonEmptyString"
@@ -650,7 +471,7 @@
                     "description": "Enter Date of filing of Original return in YYYY-MM-DD format"
                 },
                 "UniqueNumNoticeUs": {
-                    "maxLength": 23,
+                    "maxLength": 100,
                     "allOf": [
                         {
                             "$ref": "#/definitions/nonEmptyString"
@@ -689,7 +510,72 @@
                         }
                     ]
                 },
-                "GrossReceipt": {
+				"Section115BAAY": { 
+					"enum": [
+                        
+                        "2017-18",
+                        "2018-19",
+                        "2019-20",
+                        "2020-21",
+						"2021-22"
+                    ],
+                    "allOf": [
+                        {
+                            "$ref": "#/definitions/nonEmptyString"
+                        }
+                    ]
+                },
+				 "ReceiptNo115BA": {
+                    "type": "integer",
+                    "description": "Please furnish acknowledgment number of relevant form filed when the said option is exercised for the first time",
+                    "maximum": 999999999999999,
+                    "minimum": 0,
+                    "exclusiveMinimum": false
+                },
+                "115BAFormFiledDate": {
+                    "type": "string",
+                    "pattern": "([12]\\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01]))",
+                    "description": "Please furnish date of filing of relevant form filed when the said option is exercised for the first time"
+                },
+					
+                "Section115CurrAY": {
+                    "description": "Y-Yes; N-No",
+                    "enum": [
+                        "N",
+                        "Y"
+                    ],
+                    "allOf": [
+                        {
+                            "$ref": "#/definitions/nonEmptyString"
+                        }
+                    ]
+                },
+				"SectionCurrAY": {
+                    "description": "115BA-Section 115BA; 115BAA-Section 115BAA; 115BAB-Section 115BAB",
+                    "enum": [
+                        "115BA",
+						"115BAA",
+                        "115BAB"
+                    ],
+                    "allOf": [
+                        {
+                            "$ref": "#/definitions/nonEmptyString"
+                        }
+                    ]
+                },
+				"Section115CurrAYDate": {
+                    "type": "string",
+                    "pattern": "([12]\\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01]))",
+                    "description": "Please furnish relevant form filed date for current AY"
+                },
+				"Section115CurrAYRecNo": {
+                    "type": "integer",
+                    "description": "Please furnish relevant form Ack number filed for current AY",
+                    "maximum": 999999999999999,
+                    "minimum": 0,
+                    "exclusiveMinimum": false
+                },
+				"GrossReceipt": {
                     "description": "Y-Yes; N-No",
                     "enum": [
                         "N",
@@ -725,6 +611,33 @@
                         }
                     ]
                 },
+				"NriSEPinIndia": {
+                    "description": "Y - Yes; N - No; NA - Not Applicable",
+                    "enum": [
+                        "Y",
+                        "N",
+						"NA"
+                    ],
+                    "allOf": [
+                        {
+                            "$ref": "#/definitions/nonEmptyString"
+                        }
+                    ]
+                },
+				"AggrPaymentTransac": {
+                    "type": "number",
+					"maximum": 99999999999999.99,
+                    "minimum": 0,
+                    "exclusiveMinimum": false,
+                    "multipleOf": 0.01
+                },
+                "NumberOfUsers": {
+                    "type": "number",
+					"maximum": 99999999999999.99,
+                    "minimum": 0,
+                    "exclusiveMinimum": false,
+                    "multipleOf": 0.01
+                },
                 "RegistratedLaw": {
                     "description": "Y-Yes; N-No",
                     "enum": [
@@ -736,6 +649,27 @@
                             "$ref": "#/definitions/nonEmptyString"
                         }
                     ]
+                },
+				"ActDesc": {
+                    "maxLength": 125,
+                    "allOf": [
+                        {
+                            "$ref": "#/definitions/nonEmptyString"
+                        }
+                    ]
+                },
+				"ActRegNo": {
+                    "maxLength": 125,
+                    "allOf": [
+                        {
+                            "$ref": "#/definitions/nonEmptyString"
+                        }
+                    ]
+                },
+				"ActRegDate": {
+                    "description": "Date in YYYY-MM-DD format",
+                    "type": "string",
+                    "pattern": "([12]\\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01]))"
                 },
                 "FinancialStmtFlag": {
                     "description": "Y-Yes; N-No",
@@ -1154,7 +1088,7 @@
                     "default": "N"
                 },
                 "TotalSalesExcOneCr": {
-                    "pattern": "N|Y",
+                    "pattern": "Y|N|M",
                     "allOf": [
                         {
                             "$ref": "#/definitions/nonEmptyString"
@@ -1393,6 +1327,8 @@
                     "enum": [
                         "select",
                         "10AA",
+						"10(4D)",
+						"10(23FF)",
                         "44DA",
                         "50B",
                         "80-IA",
@@ -2479,6 +2415,14 @@
                                 ]
                             },
                             "TradeName1": {
+                                "maxLength": 125,
+                                "allOf": [
+                                    {
+                                        "$ref": "#/definitions/nonEmptyString"
+                                    }
+                                ]
+                            },
+							"Description": {
                                 "maxLength": 125,
                                 "allOf": [
                                     {
@@ -6290,12 +6234,13 @@
                         "properties": {
                             "Section": {
                                 "type": "string",
-                                "description": "44B : 44B; 44BB : 44BB; 44BBA : 44BBA; 44BBB : 44BBB",
+                                "description": "44B : 44B; 44BB : 44BB; 44BBA : 44BBA; 44BBB : 44BBB; 44D : 44D",
                                 "enum": [
                                     "44B",
                                     "44BB",
                                     "44BBA",
-                                    "44BBB"
+                                    "44BBB",
+									"44D"
                                 ]
                             },
                             "GrossReceipt": {
@@ -6366,7 +6311,7 @@
                 },
                 "TonnageCapacity": {
                     "type": "integer",
-                    "maximum": 99999,
+                    "maximum": 100,
                     "minimum": 0,
                     "exclusiveMinimum": false
                 },
@@ -9011,7 +8956,7 @@
                                 "OthersIncDtls": {
                                     "type": "array",
                                     "items": {
-                                        "$ref": "#/definitions/OthersIncDtl"
+                                        "$ref": "#/definitions/OthersIncDtlOL"
                                     }
                                 }
                             }
@@ -10521,7 +10466,7 @@
                             "default": 0
                         },
                         "ExpDebToPLOthHeadDtls": {
-                            "$ref": "#/definitions/SchBpHeadsIncType"
+                            "$ref": "#/definitions/SchBpHeadsIncTypeExpense"
                         },
                         "ExpDebToPLExemptInc": {
                             "type": "integer",
@@ -10747,7 +10692,7 @@
                             "exclusiveMinimum": false,
                             "default": 0
                         },
-                        "AnyOthIncNotInclInExpDisallowPL": {
+						"AnyOthIncNotInclInExpDisallowPL": {
                             "type": "integer",
                             "maximum": 99999999999999,
                             "default": 0
@@ -10798,13 +10743,6 @@
                             "default": 0
                         },
                         "DeductUs32_1_iii": {
-                            "type": "integer",
-                            "maximum": 99999999999999,
-                            "minimum": 0,
-                            "exclusiveMinimum": false,
-                            "default": 0
-                        },
-                        "DeductUs32AD": {
                             "type": "integer",
                             "maximum": 99999999999999,
                             "minimum": 0,
@@ -11048,7 +10986,6 @@
                         "IncProfDecLossAccICDSAdj",
                         "TotAfterAddToPLDeprOthSpecInc",
                         "DeductUs32_1_iii",
-                        "DeductUs32AD",
                         "Amt32AC",
                         "DebPLUs35ExcessAmt",
                         "AmtDisallUs40NowAllow",
@@ -12062,6 +11999,18 @@
                     "type": "object",
                     "additionalProperties": false,
                     "properties": {
+						"FMV11UAEii": {
+                            "type": "integer",
+                            "maximum": 99999999999999,
+                            "minimum": 0,
+                            "exclusiveMinimum": false
+                        },
+						"FMV11UAEiii": {
+                            "type": "integer",
+                            "maximum": 99999999999999,
+                            "minimum": 0,
+                            "exclusiveMinimum": false
+                        },
                         "FullConsideration": {
                             "$ref": "#/definitions/FullConsideration"
                         },
@@ -12076,6 +12025,8 @@
                         }
                     },
                     "required": [
+						"FMV11UAEii",
+						"FMV11UAEiii",
                         "FullConsideration",
                         "NetWorthOfDivision",
                         "CapgainonAssets"
@@ -12470,9 +12421,9 @@
         "YrInWhichAssetAcq": {
             "description": "2018 - 2018-19\n2019 - 2019-20\n2020 - 2020-21",
             "enum": [
-                "2018",
                 "2019",
-                "2020"
+                "2020",
+				"2021"
             ],
             "allOf": [
                 {
@@ -12644,6 +12595,18 @@
                     "type": "object",
                     "additionalProperties": false,
                     "properties": {
+						"FMV11UAEii": {
+                            "type": "integer",
+                            "maximum": 99999999999999,
+                            "minimum": 0,
+                            "exclusiveMinimum": false
+                        },
+						"FMV11UAEiii": {
+                            "type": "integer",
+                            "maximum": 99999999999999,
+                            "minimum": 0,
+                            "exclusiveMinimum": false
+                        },
                         "FullConsideration": {
                             "$ref": "#/definitions/FullConsideration"
                         },
@@ -12668,6 +12631,8 @@
                         }
                     },
                     "required": [
+						"FMV11UAEii",
+						"FMV11UAEiii",
                         "FullConsideration",
                         "NetWorthOfDivision",
                         "SlumpBalance",
@@ -13994,7 +13959,7 @@
                                 "additionalProperties": false,
                                 "properties": {
                                     "SourceDescription": {
-                                        "description": "5A1ai : 115A(1)(a)(i)-Dividends interest and income from units purchase in foreign currency; 5A1aii : 115A(1)(a)(ii)- Interest received from govt/Indian Concerns recived in Foreign Currency; 5A1aiia : 115A(1) (a)(iia) -Interest from Infrastructure Debt Fund; 5A1aiiaa : 115A(1) (a)(iiaa) -Interest as per Sec. 194LC(1); 5A1aiiab : 115A(1) (a)(iiab) -Interest as per Sec. 194LD; 5A1aiiac : 115A(1)(a)(iiac) -Interest as per Sec. 194LBA; 5A1aiii : 115A(1) (a)(iii) - Income received in respect of units of UTI purchased in Foreign Currency; FA : Para E II of Part I of Ist Sch of FA - Income from royalty or technical services - Non-domestic company; 5A1bA : 115A(1)(b)(A)- Income from royalty and technical services; 5AB1a : 115AB(1)(a) - Income in respect of units - off -shore fund; 5AC1ab : 115AC(1)(a and b) - Income from bonds or GDR purchased in foreign currency - non-resident; 5AD1i : 115AD(1)(i) -Income received by an FII in respect of securities (other than units as per Sec 115AB); 5AD1iP : 115AD(1)(i) -Income received by an FII in respect of bonds or government securities as per Sec 194LD; 5BBA : 115BBA - Tax on non-residents sportsmen or sports associations; 5BBC : 115BBC - Anonymous donations; 5BBD : 115BBD-Tax on Dividend of an Indian Company from specified foreign Company; 5BBF : 115BBF - Tax on income from patent; 5BBG : 115BBG - Income from patent chargeable; 5A1aiiaaP - 115A(1) (a)(iiaa) -Interest as referred in proviso to section 194LC(1); 5A1aiiaci - 115A(1)(a)(iiac) - Distributed income being Dividend referred to  in section 194LBA; 5AD1iDiv - 115AD(1)(i) - Income (being dividend) received by an FII in respect of securities (other than units referred to in section 115AB); 5AD1IBd - 115AD(1)(i)(B) - Income (being dividend) received by a specified fund in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i); 5AD1IB - 115AD(1)(i)(B) - Income (other than dividend) received by a specified fund in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i)",
+                                        "description": "5A1ai : 115A(1)(a)(i)-Dividends interest and income from units purchase in foreign currency; 5A1aii : 115A(1)(a)(ii)- Interest received from govt/Indian Concerns recived in Foreign Currency; 5A1aiia : 115A(1) (a)(iia) -Interest from Infrastructure Debt Fund; 5A1aiiaa : 115A(1) (a)(iiaa) -Interest as per Sec. 194LC(1); 5A1aiiab : 115A(1) (a)(iiab) -Interest as per Sec. 194LD; 5A1aiiac : 115A(1)(a)(iiac) -Interest as per Sec. 194LBA; 5A1aiii : 115A(1) (a)(iii) - Income received in respect of units of UTI purchased in Foreign Currency; FA : Para E II of Part I of Ist Sch of FA - Income from royalty or technical services - Non-domestic company; 5A1bA : 115A(1)(b)(A)- Income from royalty and technical services; 5AB1a : 115AB(1)(a) - Income in respect of units - off -shore fund; 5AC1ab:115AC(1)(a) - Income by way of interest on bonds purchased in foreign currency - non-resident; 5AC1abD - 115AC(1)(b) - Income by way of Dividend on GDRs purchased in foreign currency - non-resident; 5AD1i : 115AD(1)(i) -Income received by an FII in respect of securities (other than units as per Sec 115AB); 5AD1iP : 115AD(1)(i) -Income received by an FII in respect of bonds or government securities as per Sec 194LD; 5BBA : 115BBA - Tax on non-residents sportsmen or sports associations; 5BBC : 115BBC - Anonymous donations; 5BBD : 115BBD-Tax on Dividend of an Indian Company from specified foreign Company; 5BBF : 115BBF - Tax on income from patent; 5BBG : 115BBG - Income from patent chargeable; 5A1aiiaaP - 115A(1) (a)(iiaa) -Interest as referred in proviso to section 194LC(1); 5AD1iDiv - 115AD(1)(i) - Income (being dividend) received by an FII in respect of securities (other than units referred to in section 115AB); 5AD1IBd - 115AD(1)(i)(B) - Income (being dividend) received by a specified fund in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i); 5AD1IB - 115AD(1)(i)(B) - Income (other than dividend) received by a specified fund in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i)",
                                         "enum": [
                                             "5A1ai",
                                             "5A1aii",
@@ -14007,6 +13972,7 @@
                                             "5A1bA",
                                             "5AB1a",
                                             "5AC1ab",
+											"5AC1abD",
                                             "5AD1i",
                                             "5AD1iP",
                                             "5BBA",
@@ -14015,7 +13981,6 @@
                                             "5BBF",
                                             "5BBG",
                                             "5A1aiiaaP",
-                                            "5A1aiiaci",
                                             "5AD1iDiv",
 											"5AD1IBd",
 											"5AD1IB"
@@ -14054,7 +14019,7 @@
                                 "additionalProperties": false,
                                 "properties": {
                                     "SourceDescription": {
-                                        "description": "PTI_5A1ai - PTI-115A(1)(a)(i)- Dividends interest and income from units purchase in foreign currency; PTI_5A1aii - PTI-115A(1)(a)(ii)- Interest received from govt/Indian Concerns received in Foreign Currency; PTI_5A1aiia - PTI-115A(1) (a)(iia) -Interest from Infrastructure Debt Fund; PTI_5A1aiiaa - PTI-115A(1) (a)(iiaa) -Interest as per Sec. 194LC; PTI_5A1aiiab - PTI-115A(1) (a)(iiab) -Interest as per Sec. 194LD; PTI_5A1aiiac - PTI-115A(1) (a)(iiac) -Interest as per Sec. 194LBA; PTI_5A1aiii - PTI-115A(1) (a)(iii) -Income received in respect of units of UTI purchased in foreign currency; PTI_FA : PTI-Para E II of Part I of Ist Sch of FA - Income from royalty or technical services - Non-domestic company, ; PTI_5A1bA - PTI-115A(1)(b)(A)- Income from royalty or fees for technical services received from Government or Indian concern - chargeable u/s 115A(1)(b); PTI_5AB1a : PTI-115AB(1)(a)-Income received in respect of units purchased in foreign currency by an off-shore fund,; PTI_5AC1ab - PTI-115AC(1)(a and b) - Income from bonds or GDR purchased in foreign currency - non-resident; PTI_5AD1i - PTI-115AD(1)(i) -Income received by an FII in respect of securities (other than units as per Sec 115AB); PTI_5AD1iP - PTI-115AD(1)(i) -Income received by an FII in respect of bonds or government securities as per Sec 194LD ; PTI_5BBA - PTI-115BBA - Tax on non-residents sportsmen or sports associations; PTI_5BBC - PTI-115BBC - Anonymous donations; PTI_5BBD : PTI-115BBD- Tax on dividend received by an Indian company from specified foreign company; PTI_5BBF - PTI-115BBF - Tax on income from patent; PTI_5BBG - PTI-115BBG - Tax on income from transfer of carbon credits; PTI_5A1aiiaaP - PTI-115A(1) (a)(iiaa) - Interest as referred in proviso to section 194LC(1); PTI_5A1aiiaci - PTI-115A(1)(a)(iiac) - Distributed income being Dividend referred to  in section 194LBA; PTI_5AD1iDiv - PTI-115AD(1)(i) - Income (being dividend) received by an FII in respect of securities (other than units referred to in section 115AB); PTI_5AD1IBd - PTI- 115AD(1)(i)(B) - PTI- Income (being dividend) received by a specified fund in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i); PTI_5AD1IB - PTI-115AD(1)(i)(B) - PTI- Income (other than dividend) received by a specified fund in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i)",
+                                        "description": "PTI_5A1ai - PTI-115A(1)(a)(i)- Dividends interest and income from units purchase in foreign currency; PTI_5A1aii - PTI-115A(1)(a)(ii)- Interest received from govt/Indian Concerns received in Foreign Currency; PTI_5A1aiia - PTI-115A(1) (a)(iia) -Interest from Infrastructure Debt Fund; PTI_5A1aiiaa - PTI-115A(1) (a)(iiaa) -Interest as per Sec. 194LC; PTI_5A1aiiab - PTI-115A(1) (a)(iiab) -Interest as per Sec. 194LD; PTI_5A1aiiac - PTI-115A(1) (a)(iiac) -Interest as per Sec. 194LBA; PTI_5A1aiii - PTI-115A(1) (a)(iii) -Income received in respect of units of UTI purchased in foreign currency; PTI_FA : PTI-Para E II of Part I of Ist Sch of FA - Income from royalty or technical services - Non-domestic company, ; PTI_5A1bA - PTI-115A(1)(b)(A)- Income from royalty or fees for technical services received from Government or Indian concern - chargeable u/s 115A(1)(b); PTI_5AB1a : PTI-115AB(1)(a)-Income received in respect of units purchased in foreign currency by an off-shore fund,; PTI_5AC1ab - PTI-115AC(1)(a) -Income by way of interest on bonds purchased in foreign currency - non-resident; PTI_5AC1abD - PTI-115AC(1)(b) - Income by way of Dividend on GDRs purchased in foreign currency - non-resident; PTI_5AD1i - PTI-115AD(1)(i) -Income received by an FII in respect of securities (other than units as per Sec 115AB); PTI_5AD1iP - PTI-115AD(1)(i) -Income received by an FII in respect of bonds or government securities as per Sec 194LD ; PTI_5BBA - PTI-115BBA - Tax on non-residents sportsmen or sports associations; PTI_5BBD : PTI-115BBD- Tax on dividend received by an Indian company from specified foreign company; PTI_5BBF - PTI-115BBF - Tax on income from patent; PTI_5BBG - PTI-115BBG - Tax on income from transfer of carbon credits; PTI_5A1aiiaaP - PTI-115A(1) (a)(iiaa) - Interest as referred in proviso to section 194LC(1); PTI_5AD1iDiv - PTI-115AD(1)(i) - Income (being dividend) received by an FII in respect of securities (other than units referred to in section 115AB); PTI_5AD1IBd - PTI- 115AD(1)(i)(B) - PTI- Income (being dividend) received by a specified fund in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i); PTI_5AD1IB - PTI-115AD(1)(i)(B) - PTI- Income (other than dividend) received by a specified fund in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i)",
                                         "enum": [
                                             "PTI_5A1ai",
                                             "PTI_5A1aii",
@@ -14067,15 +14032,14 @@
                                             "PTI_5A1bA",
                                             "PTI_5AB1a",
                                             "PTI_5AC1ab",
+											"PTI_5AC1abD",
                                             "PTI_5AD1i",
                                             "PTI_5AD1iP",
                                             "PTI_5BBA",
-                                            "PTI_5BBC",
                                             "PTI_5BBD",
                                             "PTI_5BBF",
                                             "PTI_5BBG",
                                             "PTI_5A1aiiaaP",
-                                            "PTI_5A1aiiaci",
                                             "PTI_5AD1iDiv",
 											"PTI_5AD1IBd",
 											"PTI_5AD1IB"
@@ -14221,13 +14185,36 @@
                     "exclusiveMinimum": false,
                     "default": 0
                 },
-                "DividendIncUs115BBDA": {
+				"IncFrmLottery": {
+					"description": "Income by way of winnings from lotteries, crossword puzzles, races, games, gambling, betting etc. referred to in section 2(24)(ix)",
                     "$ref": "#/definitions/DateRangeTypeOS"
                 },
-                "IncFrmLottery": {
+				"DividendIncUs115BBDA": {
+					"description": "Dividend Income referred in Sl.no.1a(i)",
+                    "$ref": "#/definitions/DateRangeTypeOS"
+                },
+				"DividendIncUs115A1ai": {
+					"description": "Dividend Income u/s 115A(1)(a)(i)  @ 20% (Including PTI Income)",
+                    "$ref": "#/definitions/DateRangeTypeOS"
+                },
+				"DividendIncUs115AC": {
+					"description": "Dividend Income u/s 115AC @ 10%",
+                    "$ref": "#/definitions/DateRangeTypeOS"
+                },
+				"DividendIncUs115BBD": {
+					"description": "Dividend  Income  u/s 115BBD @ 15% (Including PTI Income)",
+                    "$ref": "#/definitions/DateRangeTypeOS"
+                },
+				"DividendIncUs115AD1iDiv": {
+					"description": "Dividend Income (other than units referred to in section 115AB) u/s 115AD(1)(i) @ 20% (Including PTI Income)",
+                    "$ref": "#/definitions/DateRangeTypeOS"
+                },
+				"DividendIncUs115AD1IBd": {
+					"description": "Dividend  Income (other than units referred to in section 115AB) received by a specified fund  u/s 115AD(1)(i) @ 10%  (Including PTI Income)",
                     "$ref": "#/definitions/DateRangeTypeOS"
                 },
                 "DividendDTAA": {
+					"description": "Dividend income taxable at DTAA rates",
                     "$ref": "#/definitions/DateRangeTypeOS"
                 }
             },
@@ -14235,8 +14222,13 @@
                 "IncOthThanOwnRaceHorse",
                 "TotOthSrcNoRaceHorse",
                 "IncChargeableFrmOthSrc",
-                "DividendIncUs115BBDA",
                 "IncFrmLottery",
+                "DividendIncUs115BBDA",
+				"DividendIncUs115A1ai",
+				"DividendIncUs115AC",
+				"DividendIncUs115BBD",
+				"DividendIncUs115AD1iDiv",
+				"DividendIncUs115AD1IBd",
                 "DividendDTAA"
             ]
         },
@@ -15070,7 +15062,7 @@
                     "additionalProperties": false,
                     "properties": {
                         "CarryFwdLossDetail": {
-                            "$ref": "#/definitions/CarryFwdLossWithoutSpecBusOS"
+                            "$ref": "#/definitions/CarryFwdLossDetailSpcfBus"
                         }
                     },
                     "required": [
@@ -15122,7 +15114,7 @@
                     "additionalProperties": false,
                     "properties": {
                         "CarryFwdLossDetail": {
-                            "$ref": "#/definitions/CarryFwdLossDetail"
+                            "$ref": "#/definitions/CarryFwdLossWithoutSpecBusOS"
                         }
                     },
                     "required": [
@@ -15168,6 +15160,19 @@
                         "CarryFwdLossDetail"
                     ]
                 },
+				"LossCFCurrentAssmntYear2022": {
+                    "description": "Carry forward losses for AY2021-22",
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                        "CarryFwdLossDetail": {
+                            "$ref": "#/definitions/CarryFwdLossDetail"
+                        }
+                    },
+					"required": [
+                        "CarryFwdLossDetail"
+                    ]
+                },
                 "TotalOfBFLossesEarlierYrs": {
                     "type": "object",
                     "additionalProperties": false,
@@ -15194,7 +15199,7 @@
                 },
                 "CurrentAYloss": {
                     "type": "object",
-                    "description": "xiv.2021-22 (Current year losses to be carried forward)",
+                    "description": "xiv.2022-23 (Current year losses to be carried forward)",
                     "additionalProperties": false,
                     "properties": {
                         "LossSummaryDetail": {
@@ -15448,7 +15453,8 @@
                         "2018-19",
                         "2019-20",
                         "2020-21",
-                        "2021-22"
+                        "2021-22",
+						"2022-23"
                     ],
                     "allOf": [
                         {
@@ -15766,11 +15772,6 @@
                                 "exclusiveMinimum": false,
                                 "default": 0
                             },
-                            "DonationAmtCashDate": {
-                                "type": "string",
-                                "description": "Date in YYYY-MM-DD format",
-                                "pattern": "([12]\\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01]))"
-                            },
                             "DonationAmtOtherMode": {
                                 "type": "integer",
                                 "maximum": 99999999999999,
@@ -16040,54 +16041,6 @@
                         "Sch80LocOrDescCode"
                     ]
                 },
-                "DeductUs80_IA_4_ii": {
-                    "type": "object",
-                    "additionalProperties": false,
-                    "properties": {
-                        "Sch80LocOrDescCode": {
-                            "pattern": "TEECOM",
-                            "allOf": [
-                                {
-                                    "$ref": "#/definitions/nonEmptyString"
-                                }
-                            ]
-                        },
-                        "Sch80DeductAmtDtls": {
-                            "type": "array",
-                            "minItems": 1,
-                            "items": {
-                                "$ref": "#/definitions/Sch80DeductAmtDtls"
-                            }
-                        }
-                    },
-                    "required": [
-                        "Sch80LocOrDescCode"
-                    ]
-                },
-                "DeductUs80_IA_4_iii": {
-                    "type": "object",
-                    "additionalProperties": false,
-                    "properties": {
-                        "Sch80LocOrDescCode": {
-                            "pattern": "INDSTRL_PARK_SEZ",
-                            "allOf": [
-                                {
-                                    "$ref": "#/definitions/nonEmptyString"
-                                }
-                            ]
-                        },
-                        "Sch80DeductAmtDtls": {
-                            "type": "array",
-                            "minItems": 1,
-                            "items": {
-                                "$ref": "#/definitions/Sch80DeductAmtDtls"
-                            }
-                        }
-                    },
-                    "required": [
-                        "Sch80LocOrDescCode"
-                    ]
-                },
                 "DeductUs80_IA_4_iv": {
                     "type": "object",
                     "additionalProperties": false,
@@ -16136,7 +16089,7 @@
                         "Sch80LocOrDescCode"
                     ]
                 },
-                "TotSchedule80_IA": {
+               "TotSchedule80_IA": {
                     "type": "integer",
                     "maximum": 99999999999999,
                     "minimum": 0,
@@ -16147,8 +16100,6 @@
             "required": [
                 "Sch80SectionCode",
                 "DeductUs80_IA_4_i",
-                "DeductUs80_IA_4_ii",
-                "DeductUs80_IA_4_iii",
                 "DeductUs80_IA_4_iv",
                 "DeductUs80_IA_4_v",
                 "TotSchedule80_IA"
@@ -16206,55 +16157,7 @@
                         "Sch80LocOrDescCode"
                     ]
                 },
-                "DeductMultiplexUs80_IB_7A_Und": {
-                    "type": "object",
-                    "additionalProperties": false,
-                    "properties": {
-                        "Sch80LocOrDescCode": {
-                            "pattern": "MULTPLX_THEATRE",
-                            "allOf": [
-                                {
-                                    "$ref": "#/definitions/nonEmptyString"
-                                }
-                            ]
-                        },
-                        "Sch80DeductAmtDtls": {
-                            "type": "array",
-                            "minItems": 1,
-                            "items": {
-                                "$ref": "#/definitions/Sch80DeductAmtDtls"
-                            }
-                        }
-                    },
-                    "required": [
-                        "Sch80LocOrDescCode"
-                    ]
-                },
-                "DeductConvCentUs80_IB_7B_Und": {
-                    "type": "object",
-                    "additionalProperties": false,
-                    "properties": {
-                        "Sch80LocOrDescCode": {
-                            "pattern": "CONEVNTION_CENTRE",
-                            "allOf": [
-                                {
-                                    "$ref": "#/definitions/nonEmptyString"
-                                }
-                            ]
-                        },
-                        "Sch80DeductAmtDtls": {
-                            "type": "array",
-                            "minItems": 1,
-                            "items": {
-                                "$ref": "#/definitions/Sch80DeductAmtDtls"
-                            }
-                        }
-                    },
-                    "required": [
-                        "Sch80LocOrDescCode"
-                    ]
-                },
-                "DeductMinOilUs80_IB_9_Und": {
+				"DeductMinOilUs80_IB_9_Und": {
                     "type": "object",
                     "additionalProperties": false,
                     "properties": {
@@ -16350,54 +16253,6 @@
                         "Sch80LocOrDescCode"
                     ]
                 },
-                "DeductRurHospUs80_IB_11B_Und": {
-                    "type": "object",
-                    "additionalProperties": false,
-                    "properties": {
-                        "Sch80LocOrDescCode": {
-                            "pattern": "RURAL_HOSPTL",
-                            "allOf": [
-                                {
-                                    "$ref": "#/definitions/nonEmptyString"
-                                }
-                            ]
-                        },
-                        "Sch80DeductAmtDtls": {
-                            "type": "array",
-                            "minItems": 1,
-                            "items": {
-                                "$ref": "#/definitions/Sch80DeductAmtDtls"
-                            }
-                        }
-                    },
-                    "required": [
-                        "Sch80LocOrDescCode"
-                    ]
-                },
-                "DeductHospAnyAreaUs80IB_11C_Und": {
-                    "type": "object",
-                    "additionalProperties": false,
-                    "properties": {
-                        "Sch80LocOrDescCode": {
-                            "pattern": "MAINTAIN_HOSP",
-                            "allOf": [
-                                {
-                                    "$ref": "#/definitions/nonEmptyString"
-                                }
-                            ]
-                        },
-                        "Sch80DeductAmtDtls": {
-                            "type": "array",
-                            "minItems": 1,
-                            "items": {
-                                "$ref": "#/definitions/Sch80DeductAmtDtls"
-                            }
-                        }
-                    },
-                    "required": [
-                        "Sch80LocOrDescCode"
-                    ]
-                },
                 "TotSchedule80_IB": {
                     "type": "integer",
                     "maximum": 99999999999999,
@@ -16409,14 +16264,10 @@
             "required": [
                 "Sch80SectionCode",
                 "DeductJKLocUs80_IB_4_Und",
-                "DeductMultiplexUs80_IB_7A_Und",
-                "DeductConvCentUs80_IB_7B_Und",
                 "DeductMinOilUs80_IB_9_Und",
                 "DeductHousUs80_IB_10_Und",
                 "DeductFruitVegUs80_IB_11A_Und",
                 "DeductFoodGrainUs80_IB_11A_Und",
-                "DeductRurHospUs80_IB_11B_Und",
-                "DeductHospAnyAreaUs80IB_11C_Und",
                 "TotSchedule80_IB"
             ]
         },
@@ -17090,7 +16941,7 @@
                         "additionalProperties": false,
                         "properties": {
                             "SecCode": {
-                                "description": "1A:111A Short term capital gains on equity share or equity oriented fund chargeable to STT; 5AD1bii:115AD(1)(b)(ii) -Short term capital gains referred to in section 111A; 21:112 (LTCG on others); 22:112 proviso (LTCG on listed securities/ units without indexation); 21ciii:112(1)(c)(iii)(LTCG on unlisted securities in case of non-residents); 2A:112A LTCG on equity shares/units of equity oriented fund/units of business trust on which STT is paid; 5A1ai:115A(1)(a)(i)- Dividends interest and income from units purchase in foreign currency; 5A1aii:115A(1)(a)(ii)- Interest received from govt/Indian Concerns recived in Foreign Currency; 5A1aiia:115A(1) (a)(iia) -Interest from Infrastructure Debt Fund; 5A1aiiaa:115A(1) (a)(iiaa) -Interest as per Sec. 194LC; 5A1aiiab:115A(1) (a)(iiab) -Interest as per Sec. 194LD; 5A1aiiac: 115A(1)(a)(iiac) -Interest as per Sec. 194LBA; 5A1aiii:115A(1) (a)(iii) - Income received in respect of units of UTI purchased in Foreign Currency; FA : Para E II of Part I of Ist Sch of FA - Income from royalty or technical services - Non-domestic company; 5A1bA:115A(1)(b)(A) and 115A(b)(B)PTI-Income from royalty or Technical services in case of non-resident in pursuance of an agreement made after 31-03-1976; 5AB1a:115AB(1)(a) - Income received in respect of units purchased in foreign currency by an off-shore fund; 5AB1b:115AB(1)(b) - Income by way of long-term capital gains arising from the transfer of units purchase in foreign currency by a off-shore fund; 5AC1ab:115AC(1)(a and b) - Income from bonds or GDR purchased in foreign currency - non-resident; 5AC1c:115AC(1)(c) -LTCG arising from the transfer of bonds or GDR purchased in foreign currency - non-resident; 5AD1i:115AD(1)(i) -Income received by an FII in respect of securities (other than units as per Sec 115AB); 5AD1iP:115AD(1)(i) -Income received by an FII in respect of bonds or government securities as per Sec 194LD ; 5ADii:115AD(1)(ii) -STCG (other than on equity share or equity oriented mutual fund referred to in section 111A) by an FII; 5ADiii:115AD(1)(iii) -Long term capital gains by an FII; 5ADiiiP:115AD(1)(iii) Proviso For NON-RESIDENTS - From sale of equity share in a company or unit of equity oriented fund or unit of a business trust on which STT is paid under section 112A; 5AD1biip:115AD(1)(b)(ii)- Short term capital gains referred to in section 111A; 5B:115B - Profits and gains of life insurance business; 5BB:115BB (Winnings from lotteries, puzzles, races, games etc.); 5BBA:115BBA - Tax on non-residents sportsmen or sports associations; 5BBC:115BBC - Anonymous donations; 5BBE:115BBE - Tax on income referred to in sections 68 or 69 or 69A or 69B or 69C or 69D; 5BBD:115BBD - Tax on dividend received by an Indian company from specified foreign company; 5BBF:115BBF - Tax on income from patent (Income under head other sources); 5BBF_BP:115BBF_BP - Tax on income from patent (Income under head business or profession); 5BBG:115BBG - Income under head other sources (Income under head other sources); 5BBG_BP:115BBG_BP - Income under head business or profession (Income under head business or profession); DTAASTCG:STCGDTAARate - STCG Chargeable at special rates in India as per DTAA; DTAALTCG:LTCGDTAARate - LTCG Chargeable at special rates in India as per DTAA; DTAAOS:OSDTAARate - Other source income chargeable under DTAA rates; PTI_STCG15P - Pass Through Income in the nature of Short Term Capital Gain chargeable @ 15%; PTI_STCG30P - Pass Through Income in the nature of Short Term Capital Gain chargeable @ 30%; PTI_LTCG10P112A - Pass Through Income in the nature of Long Term Capital Gain chargeable @ 10% u/s 112A; PTI_LTCG10P - Pass Through Income in the nature of Long Term Capital Gain chargeable @ 10% other than u/s 112A; PTI_LTCG20P - Pass Through Income in the nature of Long Term Capital Gain chargeable @ 20%; PTI_5A1ai - PTI-115A(1)(a)(i)- Dividends interest and income from units purchase in foreign currency; PTI_5A1aii - PTI-115A(1)(a)(ii)- Interest received from govt/Indian Concerns received in Foreign Currency; PTI_5A1aiia - PTI-115A(1) (a)(iia) -Interest from Infrastructure Debt Fund; PTI_5A1aiiaa - PTI-115A(1) (a)(iiaa) -Interest as per Sec. 194LC; PTI_5A1aiiab - PTI-115A(1) (a)(iiab) -Interest as per Sec. 194LD; PTI_5A1aiiac - PTI-115A(1) (a)(iiac) -Interest as per Sec. 194LBA; PTI_5A1aiii - PTI-115A(1) (a)(iii) -Income received in respect of units of UTI purchased in foreign currency; PTI_FA : PTI-Paragraph EII of Part I of first schedule of Finance Act; PTI_5A1bA - PTI-115A(1)(b)(A) and 115A(b)(B)PTI-Income from royalty or Technical services in case of non-resident in pursuance of an agreement made after 31-03-1976; PTI_5AB1a - PTI-115AB(1)(a)-Income received in respect of units purchased in foreign currency by an off-shore fund; PTI_5AC1ab - PTI-115AC(1)(a and b) - Income from bonds or GDR purchased in foreign currency - non-resident; PTI_5AC1 - PTI-115AC(1) - PTI-Income from bonds or GDR purchased in foreign currency ; PTI_5AD1i - PTI-115AD(1)(i) -Income received by an FII in respect of securities (other than units as per Sec 115AB); PTI_5AD1iP - PTI-115AD(1)(i) -Income received by an FII in respect of bonds or government securities as per Sec 194LD; PTI_5BBA - PTI-115BBA - Tax on non-residents sportsmen or sports associations; PTI_5BBC - PTI-115BBC - Anonymous donations; PTI_5BBD - PTI-115BBD - PTI-Tax on dividend received by an Indian company from specified foreign company; PTI_5BBF - PTI-115BBF - Tax on income from patent; PTI_5BBG - PTI-115BBG - Tax on income from transfer of carbon credits; 5A1aiiaaP:115A(1) (a)(iiaa) -Income received by non-resident as referred in proviso to section 194LC(1); 5A1aiiaci:115A(1)(a)(iiac) - Distributed income being Dividend referred to  in section 194LBA; PTI_5A1aiiaaP - PTI-115A(1)(a)(iiaa) -Income received by non-resident as referred in proviso to section 194LC(1); PTI_5A1aiiaci - PTI-115A(1)(a)(iiac) -Distributed income being Dividend referred to  in section 194LBA; PTI_5AD1iDiv - PTI-115AD(1)(i) - Income (being dividend) received by an FII in respect of securities (other than units referred to in section 115AB); 5AD1iDiv - 115AD(1)(i) - Income (being dividend) received by an FII in respect of securities (other than units referred to in section 115AB); 5AD1IBd - 115AD(1)(i)(B) - Income (being dividend) received by a specified fund in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i); 5AD1IB - 115AD(1)(i)(B) - Income (other than dividend) received by a specified fund in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i); PTI_5AD1IBd - PTI- 115AD(1)(i)(B) - PTI- Income (being dividend) received by a specified fund in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i); PTI_5AD1IB - PTI-115AD(1)(i)(B) - PTI- Income (other than dividend) received by a specified fund in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i)",
+                                "description": "1A:111A Short term capital gains on equity share or equity oriented fund chargeable to STT; 5AD1bii:115AD(1)(b)(ii) -Short term capital gains referred to in section 111A; 21:112 (LTCG on others); 22:112 proviso (LTCG on listed securities/ units without indexation); 21ciii:112(1)(c)(iii)(LTCG on unlisted securities in case of non-residents); 2A:112A LTCG on equity shares/units of equity oriented fund/units of business trust on which STT is paid; 5A1ai:115A(1)(a)(i)- Dividends interest and income from units purchase in foreign currency; 5A1aii:115A(1)(a)(ii)- Interest received from govt/Indian Concerns recived in Foreign Currency; 5A1aiia:115A(1) (a)(iia) -Interest from Infrastructure Debt Fund; 5A1aiiaa:115A(1) (a)(iiaa) -Interest as per Sec. 194LC; 5A1aiiab:115A(1) (a)(iiab) -Interest as per Sec. 194LD; 5A1aiiac: 115A(1)(a)(iiac) -Interest as per Sec. 194LBA; 5A1aiii:115A(1) (a)(iii) - Income received in respect of units of UTI purchased in Foreign Currency; FA : Para E II of Part I of Ist Sch of FA - Income from royalty or technical services - Non-domestic company; 5A1bA:115A(1)(b)(A) and 115A(b)(B)PTI-Income from royalty or Technical services in case of non-resident in pursuance of an agreement made after 31-03-1976; 5AB1a:115AB(1)(a) - Income received in respect of units purchased in foreign currency by an off-shore fund; 5AB1b:115AB(1)(b) - Income by way of long-term capital gains arising from the transfer of units purchase in foreign currency by a off-shore fund; 5AC1ab:115AC(1)(a) - Income by way of interest on bonds purchased in foreign currency - non-resident; 5AC1abD - 115AC(1)(b) - Income by way of Dividend on GDRs purchased in foreign currency - non-resident;; 5AC1c:115AC(1)(c) -LTCG arising from the transfer of bonds or GDR purchased in foreign currency - non-resident; 5AD1i:115AD(1)(i) -Income received by an FII in respect of securities (other than units as per Sec 115AB); 5AD1iP:115AD(1)(i) -Income received by an FII in respect of bonds or government securities as per Sec 194LD ; 5ADii:115AD(1)(ii) -STCG (other than on equity share or equity oriented mutual fund referred to in section 111A) by an FII; 5ADiii:115AD(1)(iii) -Long term capital gains by an FII; 5ADiiiP:115AD(1)(iii) Proviso For NON-RESIDENTS - From sale of equity share in a company or unit of equity oriented fund or unit of a business trust on which STT is paid under section 112A; 5AD1biip:115AD(1)(b)(ii)- Short term capital gains referred to in section 111A; 5B:115B - Profits and gains of life insurance business; 5BB:115BB (Winnings from lotteries, puzzles, races, games etc.); 5BBA:115BBA - Tax on non-residents sportsmen or sports associations; 5BBC:115BBC - Anonymous donations; 5BBE:115BBE - Tax on income referred to in sections 68 or 69 or 69A or 69B or 69C or 69D; 5BBD:115BBD - Tax on dividend received by an Indian company from specified foreign company; 5BBF:115BBF - Tax on income from patent (Income under head other sources); 5BBF_BP:115BBF_BP - Tax on income from patent (Income under head business or profession); 5BBG:115BBG - Income under head other sources (Income under head other sources); 5BBG_BP:115BBG_BP - Income under head business or profession (Income under head business or profession); DTAASTCG:STCGDTAARate - STCG Chargeable at special rates in India as per DTAA; DTAALTCG:LTCGDTAARate - LTCG Chargeable at special rates in India as per DTAA; DTAAOS:OSDTAARate - Other source income chargeable under DTAA rates; PTI_STCG15P - Pass Through Income in the nature of Short Term Capital Gain chargeable @ 15%; PTI_STCG30P - Pass Through Income in the nature of Short Term Capital Gain chargeable @ 30%; PTI_LTCG10P112A - Pass Through Income in the nature of Long Term Capital Gain chargeable @ 10% u/s 112A; PTI_LTCG10P - Pass Through Income in the nature of Long Term Capital Gain chargeable @ 10% other than u/s 112A; PTI_LTCG20P - Pass Through Income in the nature of Long Term Capital Gain chargeable @ 20%; PTI_5A1ai - PTI-115A(1)(a)(i)- Dividends interest and income from units purchase in foreign currency; PTI_5A1aii - PTI-115A(1)(a)(ii)- Interest received from govt/Indian Concerns received in Foreign Currency; PTI_5A1aiia - PTI-115A(1) (a)(iia) -Interest from Infrastructure Debt Fund; PTI_5A1aiiaa - PTI-115A(1) (a)(iiaa) -Interest as per Sec. 194LC; PTI_5A1aiiab - PTI-115A(1) (a)(iiab) -Interest as per Sec. 194LD; PTI_5A1aiiac - PTI-115A(1) (a)(iiac) -Interest as per Sec. 194LBA; PTI_5A1aiii - PTI-115A(1) (a)(iii) -Income received in respect of units of UTI purchased in foreign currency; PTI_FA : PTI-Paragraph EII of Part I of first schedule of Finance Act; PTI_5A1bA - PTI-115A(1)(b)(A) and 115A(b)(B)PTI-Income from royalty or Technical services in case of non-resident in pursuance of an agreement made after 31-03-1976; PTI_5AB1a - PTI-115AB(1)(a)-Income received in respect of units purchased in foreign currency by an off-shore fund; PTI_5AC1ab - PTI-115AC(1)(a) -Income by way of interest on bonds purchased in foreign currency - non-resident; PTI_5AC1abD - PTI-115AC(1)(b) - Income by way of Dividend on GDRs purchased in foreign currency - non-resident; PTI_5AC1 - PTI-115AC(1) - PTI-Income from bonds or GDR purchased in foreign currency ; PTI_5AD1i - PTI-115AD(1)(i) -Income received by an FII in respect of securities (other than units as per Sec 115AB); PTI_5AD1iP - PTI-115AD(1)(i) -Income received by an FII in respect of bonds or government securities as per Sec 194LD; PTI_5BBA - PTI-115BBA - Tax on non-residents sportsmen or sports associations; PTI_5BBD - PTI-115BBD - PTI-Tax on dividend received by an Indian company from specified foreign company; PTI_5BBF - PTI-115BBF - Tax on income from patent; PTI_5BBG - PTI-115BBG - Tax on income from transfer of carbon credits; 5A1aiiaaP:115A(1) (a)(iiaa) -Income received by non-resident as referred in proviso to section 194LC(1);  PTI_5A1aiiaaP - PTI-115A(1)(a)(iiaa) -Income received by non-resident as referred in proviso to section 194LC(1); PTI_5AD1iDiv - PTI-115AD(1)(i) - Income (being dividend) received by an FII in respect of securities (other than units referred to in section 115AB); 5AD1iDiv - 115AD(1)(i) - Income (being dividend) received by an FII in respect of securities (other than units referred to in section 115AB); 5AD1IBd - 115AD(1)(i)(B) - Income (being dividend) received by a specified fund in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i); 5AD1IB - 115AD(1)(i)(B) - Income (other than dividend) received by a specified fund in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i); PTI_5AD1IBd - PTI- 115AD(1)(i)(B) - PTI- Income (being dividend) received by a specified fund in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i); PTI_5AD1IB - PTI-115AD(1)(i)(B) - PTI- Income (other than dividend) received by a specified fund in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i)",
                                 "enum": [
                                     "1A",
                                     "5AD1bii",
@@ -17110,6 +16961,7 @@
                                     "5AB1a",
                                     "5AB1b",
                                     "5AC1ab",
+									"5AC1abD",
                                     "5AC1c",
                                     "5AD1i",
                                     "5AD1iP",
@@ -17146,19 +16998,17 @@
                                     "PTI_5A1bA",
                                     "PTI_5AB1a",
                                     "PTI_5AC1ab",
+									"PTI_5AC1abD",
                                     "PTI_5AC1",
                                     "PTI_5AD1i",
                                     "PTI_5AD1iP",
                                     "PTI_5BBA",
-                                    "PTI_5BBC",
                                     "PTI_5BBD",
                                     "PTI_5BBF",
                                     "PTI_5BBG",
                                     "5A1aiiaaP",
-                                    "5A1aiiaci",
                                     "5AD1iDiv",
                                     "PTI_5A1aiiaaP",
-                                    "PTI_5A1aiiaci",
                                     "PTI_5AD1iDiv",
 									"5AD1IBd",
 									"5AD1IB",
@@ -17174,17 +17024,17 @@
                             "SplRatePercent": {
                                 "type": "number",
                                 "enum": [
-                                    1.0,
-                                    5.0,
-                                    10.0,
-                                    15.0,
+                                    1,
+                                    5,
+                                    10,
+                                    15,
                                     12.5,
-                                    20.0,
-                                    25.0,
-                                    30.0,
-                                    50.0,
-                                    60.0,
-									4.0
+                                    20,
+                                    25,
+                                    30,
+                                    50,
+                                    60,
+									4
                                 ],
                                 "default": 1
                             },
@@ -17231,6 +17081,106 @@
                 "TotSplRateIncTax"
             ]
         },
+		"ScheduleIF": {
+            "type": "object",
+            "description": "Partnership firm details",
+            "additionalProperties": false,
+            "properties": {
+                "PartnerFirmDetails": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "FirmName": {
+                                "maxLength": 125,
+                                "allOf": [
+                                    {
+                                        "$ref": "#/definitions/nonEmptyString"
+                                    }
+                                ]
+                            },
+							"FirmType": {
+                                "maxLength": 125,
+                                "allOf": [
+                                    {
+                                        "$ref": "#/definitions/nonEmptyString"
+                                    }
+                                ]
+                            },
+                            "FirmPAN": {
+                                "maxLength": 10,
+                                "pattern": "[A-Z]{5}[0-9]{4}[A-Z]",
+                                "allOf": [
+                                    {
+                                        "$ref": "#/definitions/nonEmptyString"
+                                    }
+                                ]
+                            },
+                            "IsLiableToAudit": {
+                                "pattern": "Y|N",
+                                "allOf": [
+                                    {
+                                        "$ref": "#/definitions/nonEmptyString"
+                                    }
+                                ]
+                            },
+                            "Sec92EFirmFlag": {
+                                "pattern": "Y|N",
+                                "allOf": [
+                                    {
+                                        "$ref": "#/definitions/nonEmptyString"
+                                    }
+                                ]
+                            },
+                            "ProfitSharePercent": {
+                                "type": "number",
+                                "maximum": 100,
+                                "minimum": 0,
+                                "multipleOf": 0.01,
+                                "exclusiveMinimum": false,
+                                "exclusiveMaximum": false,
+                                "default": 0
+                            },
+                            "ProfitShareAmt": {
+                                "type": "integer",
+                                "maximum": 99999999999999,
+                                "default": 0
+                            },
+                            "FirmCapBalOn31Mar": {
+                                "type": "integer",
+                                "maximum": 99999999999999,
+                                "default": 0
+                            }
+                        },
+                        "required": [
+                            "FirmName",
+							"FirmType",
+                            "FirmPAN",
+                            "ProfitSharePercent",
+                            "ProfitShareAmt",
+                            "FirmCapBalOn31Mar"
+                        ]
+                    }
+                },
+                "TotalProfitShareAmt": {
+                    "type": "integer",
+                    "maximum": 99999999999999,
+                    "default": 0
+                },
+                "TotalFirmCapBalOn31Mar": {
+                    "type": "integer",
+                    "maximum": 99999999999999,
+                    "default": 0
+                }
+            },
+            "required": [
+                "TotalProfitShareAmt",
+                "TotalFirmCapBalOn31Mar"
+            ]
+        },
+        
         "ScheduleEI": {
             "type": "object",
             "description": "Details of Exempt Income (Income not to be included in Total Income)",
@@ -17374,8 +17324,8 @@
                         }
                     ]
                 },
-                "CountryCode": {
-                    "$ref": "#/definitions/CountryCode"
+                "CountryCodeExcludingIndia": {
+                    "$ref": "#/definitions/CountryCodeExcludingIndia"
                 },
                 "ArticleOfDTAA": {
                     "maxLength": 16,
@@ -17415,7 +17365,7 @@
             "required": [
                 "AmountOfIncome",
                 "CountryName",
-                "CountryCode",
+                "CountryCodeExcludingIndia",
                 "HeadOfIncome"
             ]
         },
@@ -17923,6 +17873,8 @@
                 "Deducts",
                 "BookProfUs115JB",
                 "DeemedTotalIncUs115JB",
+				"DeemedTotalIncUs115JBIFSC",
+				"DeemedTotalIncUs115JBOther",
                 "TaxPayableUs115JB"
             ]
         },
@@ -17953,14 +17905,14 @@
                 },
                 "UtilMATCredAvl": {
                     "type": "array",
-                    "maxItems": 13,
+                    "maxItems": 14,
                     "items": {
                         "$ref": "#/definitions/UtilMATCredAvl"
                     }
                 },
                 "CurAssYr": {
                     "enum": [
-                        "2021-22"
+                        "2022-23"
                     ],
                     "allOf": [
                         {
@@ -18065,7 +18017,8 @@
                         "2017-18",
                         "2018-19",
                         "2019-20",
-                        "2020-21"
+                        "2020-21",
+						"2021-22"
                     ],
                     "allOf": [
                         {
@@ -18672,6 +18625,7 @@
         "DeductedYr": {
             "type": "integer",
             "enum": [
+				2020,
                 2019,
                 2018,
                 2017,
@@ -18780,7 +18734,7 @@
             "properties": {
                 "CurrAssYr": {
                     "enum": [
-                        "2021-22"
+                        "2022-23"
                     ],
                     "allOf": [
                         {
@@ -19086,8 +19040,8 @@
                         }
                     ]
                 },
-                "CountryCode": {
-                    "$ref": "#/definitions/CountryCode"
+                "CountryCodeExcludingIndia": {
+                    "$ref": "#/definitions/CountryCodeExcludingIndia"
                 },
                 "TaxIdentificationNo": {
                     "maxLength": 75,
@@ -19124,7 +19078,7 @@
             },
             "required": [
                 "CountryName",
-                "CountryCode",
+                "CountryCodeExcludingIndia",
                 "TaxIdentificationNo",
                 "TaxPaidOutsideIndia",
                 "TaxReliefOutsideIndia"
@@ -19211,8 +19165,8 @@
                         }
                     ]
                 },
-                "CountryCode": {
-                    "$ref": "#/definitions/CountryCode"
+                "CountryCodeExcludingIndia": {
+                    "$ref": "#/definitions/CountryCodeExcludingIndia"
                 },
                 "Bankname": {
                     "maxLength": 125,
@@ -19286,7 +19240,7 @@
             },
             "required": [
                 "CountryName",
-                "CountryCode",
+                "CountryCodeExcludingIndia",
                 "Bankname",
                 "AddressOfBank",
                 "ZipCode",
@@ -19312,8 +19266,8 @@
                         }
                     ]
                 },
-                "CountryCode": {
-                    "$ref": "#/definitions/CountryCode"
+                "CountryCodeExcludingIndia": {
+                    "$ref": "#/definitions/CountryCodeExcludingIndia"
                 },
                 "FinancialInstName": {
                     "maxLength": 125,
@@ -19400,7 +19354,7 @@
             },
             "required": [
                 "CountryName",
-                "CountryCode",
+                "CountryCodeExcludingIndia",
                 "FinancialInstName",
                 "FinancialInstAddress",
                 "ZipCode",
@@ -19427,8 +19381,8 @@
                         }
                     ]
                 },
-                "CountryCode": {
-                    "$ref": "#/definitions/CountryCode"
+                "CountryCodeExcludingIndia": {
+                    "$ref": "#/definitions/CountryCodeExcludingIndia"
                 },
                 "NameOfEntity": {
                     "maxLength": 125,
@@ -19494,7 +19448,7 @@
             },
             "required": [
                 "CountryName",
-                "CountryCode",
+                "CountryCodeExcludingIndia",
                 "NameOfEntity",
                 "AddressOfEntity",
                 "ZipCode",
@@ -19521,8 +19475,8 @@
                         }
                     ]
                 },
-                "CountryCode": {
-                    "$ref": "#/definitions/CountryCode"
+                "CountryCodeExcludingIndia": {
+                    "$ref": "#/definitions/CountryCodeExcludingIndia"
                 },
                 "FinancialInstName": {
                     "maxLength": 125,
@@ -19567,7 +19521,7 @@
             },
             "required": [
                 "CountryName",
-                "CountryCode",
+                "CountryCodeExcludingIndia",
                 "FinancialInstName",
                 "FinancialInstAddress",
                 "ZipCode",
@@ -19660,8 +19614,8 @@
                         }
                     ]
                 },
-                "CountryCode": {
-                    "$ref": "#/definitions/CountryCode"
+                "CountryCodeExcludingIndia": {
+                    "$ref": "#/definitions/CountryCodeExcludingIndia"
                 },
                 "ZipCode": {
                     "maxLength": 8,
@@ -19769,7 +19723,7 @@
             },
             "required": [
                 "CountryName",
-                "CountryCode",
+                "CountryCodeExcludingIndia",
                 "ZipCode",
                 "NameOfEntity",
                 "AddressOfEntity",
@@ -19797,8 +19751,8 @@
                         }
                     ]
                 },
-                "CountryCode": {
-                    "$ref": "#/definitions/CountryCode"
+                "CountryCodeExcludingIndia": {
+                    "$ref": "#/definitions/CountryCodeExcludingIndia"
                 },
                 "ZipCode": {
                     "maxLength": 8,
@@ -19888,7 +19842,7 @@
             },
             "required": [
                 "CountryName",
-                "CountryCode",
+                "CountryCodeExcludingIndia",
                 "ZipCode",
                 "Ownership",
                 "DateOfAcq",
@@ -19914,8 +19868,8 @@
                         }
                     ]
                 },
-                "CountryCode": {
-                    "$ref": "#/definitions/CountryCode"
+                "CountryCodeExcludingIndia": {
+                    "$ref": "#/definitions/CountryCodeExcludingIndia"
                 },
                 "ZipCode": {
                     "maxLength": 8,
@@ -20006,7 +19960,7 @@
             },
             "required": [
                 "CountryName",
-                "CountryCode",
+                "CountryCodeExcludingIndia",
                 "ZipCode",
                 "NatureOfAsset",
                 "Ownership",
@@ -20051,8 +20005,8 @@
                         }
                     ]
                 },
-                "CountryCode": {
-                    "$ref": "#/definitions/CountryCode"
+                "CountryCodeExcludingIndia": {
+                    "$ref": "#/definitions/CountryCodeExcludingIndia"
                 },
                 "ZipCode": {
                     "maxLength": 8,
@@ -20136,7 +20090,7 @@
                 "NameOfInstitution",
                 "AddressOfInstitution",
                 "CountryName",
-                "CountryCode",
+                "CountryCodeExcludingIndia",
                 "ZipCode",
                 "NameMentionedInAccnt",
                 "InstitutionAccountNumber",
@@ -20158,8 +20112,8 @@
                         }
                     ]
                 },
-                "CountryCode": {
-                    "$ref": "#/definitions/CountryCode"
+                "CountryCodeExcludingIndia": {
+                    "$ref": "#/definitions/CountryCodeExcludingIndia"
                 },
                 "ZipCode": {
                     "maxLength": 8,
@@ -20294,7 +20248,7 @@
             },
             "required": [
                 "CountryName",
-                "CountryCode",
+                "CountryCodeExcludingIndia",
                 "ZipCode",
                 "NameOfTrust",
                 "AddressOfTrust",
@@ -20322,8 +20276,8 @@
                         }
                     ]
                 },
-                "CountryCode": {
-                    "$ref": "#/definitions/CountryCode"
+                "CountryCodeExcludingIndia": {
+                    "$ref": "#/definitions/CountryCodeExcludingIndia"
                 },
                 "ZipCode": {
                     "maxLength": 8,
@@ -20408,7 +20362,7 @@
             },
             "required": [
                 "CountryName",
-                "CountryCode",
+                "CountryCodeExcludingIndia",
                 "ZipCode",
                 "NameOfPerson",
                 "AddressOfPerson",
@@ -22856,12 +22810,6 @@
                     "exclusiveMinimum": false,
                     "default": 0
                 },
-                "ScheduleTPSADtls": {
-                    "type": "array",
-                    "items": {
-                        "$ref": "#/definitions/ScheduleTPSADtls"
-                    }
-                },
                 "AdditionalIncTax18PercAbove": {
                     "type": "integer",
                     "maximum": 99999999999999,
@@ -22974,29 +22922,6 @@
                 "TotalAmountDeposited"
             ]
         },
-        "ScheduleTPSADtls": {
-            "type": "object",
-            "additionalProperties": false,
-            "properties": {
-                "FinYr": {
-                    "enum": [
-                        "2020",
-                        "2019"
-                    ],
-                    "allOf": [
-                        {
-                            "$ref": "#/definitions/nonEmptyString"
-                        }
-                    ]
-                },
-                "Amount": {
-                    "type": "integer",
-                    "maximum": 99999999999999,
-                    "minimum": 0,
-                    "exclusiveMinimum": false
-                }
-            }
-        },
         "ScheduleFSI": {
             "type": "object",
             "additionalProperties": false,
@@ -23024,8 +22949,8 @@
                         }
                     ]
                 },
-                "CountryCode": {
-                    "$ref": "#/definitions/CountryCode"
+                "CountryCodeExcludingIndia": {
+                    "$ref": "#/definitions/CountryCodeExcludingIndia"
                 },
                 "TaxIdentificationNo": {
                     "maxLength": 75,
@@ -23053,7 +22978,7 @@
             },
             "required": [
                 "CountryName",
-                "CountryCode",
+                "CountryCodeExcludingIndia",
                 "TaxIdentificationNo",
                 "IncFromHP",
                 "IncFromBusiness",
@@ -23168,6 +23093,265 @@
                 "36",
                 "354",
                 "91",
+                "62",
+                "98",
+                "964",
+                "353",
+                "1624",
+                "972",
+                "5",
+                "1876",
+                "81",
+                "1534",
+                "962",
+                "7",
+                "254",
+                "686",
+                "850",
+                "82",
+                "965",
+                "996",
+                "856",
+                "371",
+                "961",
+                "266",
+                "231",
+                "218",
+                "423",
+                "370",
+                "352",
+                "853",
+                "389",
+                "261",
+                "265",
+                "60",
+                "960",
+                "223",
+                "356",
+                "692",
+                "596",
+                "222",
+                "230",
+                "269",
+                "52",
+                "691",
+                "373",
+                "377",
+                "976",
+                "382",
+                "1664",
+                "212",
+                "258",
+                "95",
+                "264",
+                "674",
+                "977",
+                "31",
+                "687",
+                "64",
+                "505",
+                "227",
+                "234",
+                "683",
+                "15",
+                "1670",
+                "47",
+                "968",
+                "92",
+                "680",
+                "970",
+                "507",
+                "675",
+                "595",
+                "51",
+                "63",
+                "1011",
+                "48",
+                "14",
+                "1787",
+                "974",
+                "262",
+                "40",
+                "8",
+                "250",
+                "1006",
+                "290",
+                "1869",
+                "1758",
+                "1007",
+                "508",
+                "1784",
+                "685",
+                "378",
+                "239",
+                "966",
+                "221",
+                "381",
+                "248",
+                "232",
+                "65",
+                "1721",
+                "421",
+                "386",
+                "677",
+                "252",
+                "28",
+                "1008",
+                "211",
+                "35",
+                "94",
+                "249",
+                "597",
+                "1012",
+                "268",
+                "46",
+                "41",
+                "963",
+                "886",
+                "992",
+                "255",
+                "66",
+                "670",
+                "228",
+                "690",
+                "676",
+                "1868",
+                "216",
+                "90",
+                "993",
+                "1649",
+                "688",
+                "256",
+                "380",
+                "971",
+                "44",
+                "2",
+                "1009",
+                "598",
+                "998",
+                "678",
+                "58",
+                "84",
+                "1284",
+                "1340",
+                "681",
+                "1013",
+                "967",
+                "260",
+                "263",
+                "9999"
+            ],
+            "allOf": [
+                {
+                    "$ref": "#/definitions/nonEmptyString"
+                }
+            ]
+        },
+		"CountryCodeExcludingIndia": {
+            "description": "93:AFGHANISTAN; 1001:ÅLAND ISLANDS; 355:ALBANIA; 213:ALGERIA; 684:AMERICAN SAMOA; 376:ANDORRA; 244:ANGOLA; 1264:ANGUILLA; 1010:ANTARCTICA; 1268:ANTIGUA AND BARBUDA; 54:ARGENTINA; 374:ARMENIA; 297:ARUBA; 61:AUSTRALIA; 43:AUSTRIA; 994:AZERBAIJAN; 1242:BAHAMAS; 973:BAHRAIN; 880:BANGLADESH; 1246:BARBADOS; 375:BELARUS; 32:BELGIUM; 501:BELIZE; 229:BENIN; 1441:BERMUDA; 975:BHUTAN; 591:BOLIVIA (PLURINATIONAL STATE OF); 1002:BONAIRE, SINT EUSTATIUS AND SABA; 387:BOSNIA AND HERZEGOVINA; 267:BOTSWANA; 1003:BOUVET ISLAND; 55:BRAZIL; 1014:BRITISH INDIAN OCEAN TERRITORY; 673:BRUNEI DARUSSALAM; 359:BULGARIA; 226: BURKINA FASO; 257:BURUNDI; 238:CABO VERDE; 855:CAMBODIA; 237:CAMEROON; 1:CANADA; 1345:CAYMAN ISLANDS; 236:CENTRAL AFRICAN REPUBLIC; 235:CHAD; 56:CHILE; 86:CHINA; 9:CHRISTMAS ISLAND; 672:COCOS (KEELING) ISLANDS; 57:COLOMBIA; 270:COMOROS; 242:CONGO; 243:CONGO (DEMOCRATIC REPUBLIC OF THE); 682:COOK ISLANDS; 506:COSTA RICA; 225:CÔTE D'IVOIRE; 385:CROATIA; 53:CUBA; 1015:CURAÇAO; 357:CYPRUS; 420:CZECHIA; 45:DENMARK; 253:DJIBOUTI; 1767:DOMINICA; 1809:DOMINICAN REPUBLIC; 593:ECUADOR; 20:EGYPT; 503:EL SALVADOR; 240:EQUATORIAL GUINEA; 291:ERITREA; 372:ESTONIA; 251:ETHIOPIA; 500:FALKLAND ISLANDS (MALVINAS); 298:FAROE ISLANDS; 679:FIJI; 358:FINLAND; 33:FRANCE; 594:FRENCH GUIANA; 689:FRENCH POLYNESIA; 1004:FRENCH SOUTHERN TERRITORIES; 241:GABON; 220:GAMBIA; 995:GEORGIA; 49:GERMANY; 233:GHANA; 350:GIBRALTAR; 30:GREECE; 299:GREENLAND; 1473:GRENADA; 590:GUADELOUPE; 1671:GUAM; 502:GUATEMALA; 1481:GUERNSEY; 224:GUINEA; 245:GUINEA-BISSAU; 592:GUYANA; 509:HAITI; 1005:HEARD ISLAND AND MCDONALD ISLANDS; 6:HOLY SEE; 504:HONDURAS; 852:HONG KONG; 36:HUNGARY; 354:ICELAND; 62:INDONESIA; 98:IRAN (ISLAMIC REPUBLIC OF); 964:IRAQ; 353:IRELAND; 1624:ISLE OF MAN; 972:ISRAEL; 5:ITALY; 1876:JAMAICA; 81:JAPAN; 1534:JERSEY; 962:JORDAN; 7:KAZAKHSTAN; 254:KENYA; 686:KIRIBATI; 850:KOREA(DEMOCRATIC PEOPLE'S REPUBLIC OF); 82:KOREA (REPUBLIC OF); 965:KUWAIT; 996:KYRGYZSTAN; 856:LAO PEOPLE'S DEMOCRATIC REPUBLIC; 371:LATVIA; 961:LEBANON; 266:LESOTHO; 231:LIBERIA; 218:LIBYA; 423:LIECHTENSTEIN; 370:LITHUANIA; 352:LUXEMBOURG; 853:MACAO; 389:MACEDONIA(THE FORMER YUGOSLAV REPUBLIC OF); 261:MADAGASCAR; 256:MALAWI; 60:MALAYSIA; 960:MALDIVES; 223:MALI; 356:MALTA; 692:MARSHALL ISLANDS; 596:MARTINIQUE; 222:MAURITANIA; 230:MAURITIUS; 269:MAYOTTE; 52:MEXICO; 691:MICRONESIA (FEDERATED STATES OF); 373:MOLDOVA (REPUBLIC OF); 377:MONACO; 976:MONGOLIA; 382:MONTENEGRO; 1664:MONTSERRAT; 212:MOROCCO; 258:MOZAMBIQUE; 95:MYANMAR; 264:NAMIBIA; 674:NAURU; 977:NEPAL; 31:NETHERLANDS; 687:NEW CALEDONIA; 64:NEW ZEALAND; 505:NICARAGUA; 227:NIGER; 234:NIGERIA; 683:NIUE; 15:NORFOLK ISLAND; 1670:NORTHERN MARIANA ISLANDS; 47:NORWAY; 968:OMAN; 92:PAKISTAN; 680:PALAU; 970:PALESTINE, STATE OF; 507:PANAMA; 675:PAPUA NEW GUINEA; 595:PARAGUAY; 51:PERU; 63:PHILIPPINES; 1011:PITCAIRN; 48:POLAND; 14:PORTUGAL; 1787:PUERTO RICO; 974:QATAR; 262:RÉUNION; 40:ROMANIA; 8:RUSSIAN FEDERATION; 250:RWANDA; 1006:SAINT BARTHÉLEMY; 290: SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA; 1869:SAINT KITTS AND NEVIS; 1758:SAINT LUCIA; 1007:SAINT MARTIN (FRENCH PART); 508:SAINT PIERRE AND MIQUELON; 1784:SAINT VINCENT AND THE GRENADINES; 685:SAMOA; 378:SAN MARINO; 239:SAO TOME AND PRINCIPE; 966:SAUDI ARABIA; 221:SENEGAL; 381:SERBIA; 248:SEYCHELLES; 232:SIERRA LEONE; 65:SINGAPORE; 1721:SINT MAARTEN (DUTCH PART); 421:SLOVAKIA; 386:SLOVENIA; 677:SOLOMON ISLANDS; 252:SOMALIA; 28:SOUTH AFRICA; 1008:SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS; 211:SOUTH SUDAN; 35:SPAIN; 94:SRI LANKA; 249:SUDAN; 597:SURINAME; 1012:SVALBARD AND JAN MAYEN; 268:SWAZILAND; 46:SWEDEN; 41:SWITZERLAND; 963:SYRIAN ARAB REPUBLIC; 886:TAIWAN, PROVINCE OF CHINA[A]; 992:TAJIKISTAN; 255:TANZANIA, UNITED REPUBLIC OF; 66:THAILAND; 670:TIMOR-LESTE (EAST TIMOR); 228:TOGO; 690:TOKELAU; 676:TONGA; 1868:TRINIDAD AND TOBAGO; 216:TUNISIA; 90:TURKEY; 993:TURKMENISTAN; 1649:TURKS AND CAICOS ISLANDS; 688:TUVALU; 256:UGANDA; 380:UKRAINE; 971:UNITED ARAB EMIRATES; 44:UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND; 2:UNITED STATES OF AMERICA; 1009:UNITED STATES MINOR OUTLYING ISLANDS; 598:URUGUAY; 998:UZBEKISTAN; 678:VANUATU; 58:VENEZUELA (BOLIVARIAN REPUBLIC OF); 84:VIET NAM; 1284:VIRGIN ISLANDS (BRITISH); 1340:VIRGIN ISLANDS (U.S.); 681:WALLIS AND FUTUNA; 1013:WESTERN SAHARA; 967:YEMEN; 260:ZAMBIA; 263:ZIMBABWE; 9999:OTHERS",
+            "enum": [
+                "93",
+                "1001",
+                "355",
+                "213",
+                "684",
+                "376",
+                "244",
+                "1264",
+                "1010",
+                "1268",
+                "54",
+                "374",
+                "297",
+                "61",
+                "43",
+                "994",
+                "1242",
+                "973",
+                "880",
+                "1246",
+                "375",
+                "32",
+                "501",
+                "229",
+                "1441",
+                "975",
+                "591",
+                "1002",
+                "387",
+                "267",
+                "1003",
+                "55",
+                "1014",
+                "673",
+                "359",
+                "226",
+                "257",
+                "238",
+                "855",
+                "237",
+                "1",
+                "1345",
+                "236",
+                "235",
+                "56",
+                "86",
+                "9",
+                "672",
+                "57",
+                "270",
+                "242",
+                "243",
+                "682",
+                "506",
+                "225",
+                "385",
+                "53",
+                "1015",
+                "357",
+                "420",
+                "45",
+                "253",
+                "1767",
+                "1809",
+                "593",
+                "20",
+                "503",
+                "240",
+                "291",
+                "372",
+                "251",
+                "500",
+                "298",
+                "679",
+                "358",
+                "33",
+                "594",
+                "689",
+                "1004",
+                "241",
+                "220",
+                "995",
+                "49",
+                "233",
+                "350",
+                "30",
+                "299",
+                "1473",
+                "590",
+                "1671",
+                "502",
+                "1481",
+                "224",
+                "245",
+                "592",
+                "509",
+                "1005",
+                "6",
+                "504",
+                "852",
+                "36",
+                "354",
                 "62",
                 "98",
                 "964",
@@ -23900,9 +24084,11 @@
                 "ContToEmpPFSFGF",
                 "EmpBonusComm",
                 "IntPayaleToFI",
+				"SumPayaleLoanBrToFinComp",
                 "IntPayaleToFISchBank",
                 "LeaveEncashPayable",
                 "TotAmtUs43b"
+		
             ]
         },
         "TradingConcernQD": {
@@ -24230,7 +24416,42 @@
                 "OthAmount"
             ]
         },
-        "OthersNatureAmount": {
+		"OthersIncDtlOL": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "OthNatOfInc": {
+                    "maxLength": 50,
+                    "minLength": 1,
+                    "allOf": [
+                        {
+                            "$ref": "#/definitions/nonEmptyString"
+                        }
+                    ]
+                },
+				"TypeOfIncome": {
+                    "type": "string",
+                    "description": "R : Revenue; C : Capital",
+                    "enum": [
+                        "R",
+                        "C"
+                    ]
+                },
+				
+                "OthAmount": {
+                    "type": "integer",
+                    "maximum": 99999999999999,
+                    "minimum": 0,
+                    "exclusiveMinimum": false
+                }
+            },
+            "required": [
+                "OthNatOfInc",
+				"TypeOfIncome",
+                "OthAmount"
+            ]
+        },
+		"OthersNatureAmount": {
             "type": "object",
             "additionalProperties": false,
             "properties": {
@@ -24282,6 +24503,24 @@
             "type": "object",
             "additionalProperties": false,
             "properties": {
+				"NatureExempt": {
+                    "description": "10(23FB) - Exempt Us10(23FB); 10(23FBA) - Exempt Us10(23FBA); 10(23FC) - Exempt Us10(23FC); 10(23FCA) - Exempt Us10(23FCA); 10(23FE) - Exempt Us10(23FE); 10(23FF) - Exempt Us10(23FF); 10(4D) - Exempt Us10(4D); OTH - Other Exempt Income",
+                    "enum": [
+                        "10(23FB)",
+                        "10(23FBA)",
+                        "10(23FC)",
+                        "10(23FCA)",
+                        "10(23FE)",
+                        "10(23FF)",
+                        "10(4D)",
+                        "OTH"
+                    ],
+                    "allOf": [
+                        {
+                            "$ref": "#/definitions/nonEmptyString"
+                        }
+                    ]
+                },
                 "OthNatOfInc": {
                     "maxLength": 75,
                     "minLength": 1,
@@ -24299,6 +24538,7 @@
                 }
             },
             "required": [
+				"NatureExempt",
                 "OthNatOfInc",
                 "OthAmount"
             ]
@@ -24457,6 +24697,54 @@
                 "OtherThanDividend"
             ]
         },
+		"SchBpHeadsIncTypeExpense": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "HouseProperty": {
+                    "type": "integer",
+                    "maximum": 99999999999999,
+                    "minimum": 0,
+                    "exclusiveMinimum": false,
+                    "default": 0
+                },
+                "CapitalGains": {
+                    "type": "integer",
+                    "maximum": 99999999999999,
+                    "minimum": 0,
+                    "exclusiveMinimum": false,
+                    "default": 0
+                },
+                "OtherSources": {
+                    "type": "integer",
+                    "maximum": 99999999999999,
+                    "minimum": 0,
+                    "exclusiveMinimum": false,
+                    "default": 0
+                },
+                "UnderSec115BBF": {
+                    "type": "integer",
+                    "maximum": 99999999999999,
+                    "minimum": 0,
+                    "exclusiveMinimum": false,
+                    "default": 0
+                },
+                "UnderSec115BBG": {
+                    "type": "integer",
+                    "maximum": 99999999999999,
+                    "minimum": 0,
+                    "exclusiveMinimum": false,
+                    "default": 0
+                }
+            },
+            "required": [
+                "HouseProperty",
+                "CapitalGains",
+                "OtherSources",
+                "UnderSec115BBF",
+                "UnderSec115BBG"
+            ]
+        },
         "BusLossCurrYearSetoffType": {
             "type": "object",
             "additionalProperties": false,
@@ -24514,20 +24802,6 @@
                     "default": 0
                 },
                 "DepreciationAtFullRate": {
-                    "type": "integer",
-                    "maximum": 99999999999999,
-                    "minimum": 0,
-                    "exclusiveMinimum": false,
-                    "default": 0
-                },
-                "AddlnDeprOnGT180DayAdditions": {
-                    "type": "integer",
-                    "maximum": 99999999999999,
-                    "minimum": 0,
-                    "exclusiveMinimum": false,
-                    "default": 0
-                },
-                "AddlnDeprOnLessThan180DayAdditions": {
                     "type": "integer",
                     "maximum": 99999999999999,
                     "minimum": 0,
@@ -25081,8 +25355,8 @@
                             "CountryName": {
                                 "$ref": "#/definitions/CountryName"
                             },
-                            "CountryCode": {
-                                "$ref": "#/definitions/CountryCode"
+                            "CountryCodeExcludingIndia": {
+                                "$ref": "#/definitions/CountryCodeExcludingIndia"
                             },
                             "DTAAarticle": {
                                 "$ref": "#/definitions/DTAAarticle"
@@ -25107,7 +25381,7 @@
                             "DTAAamt",
                             "ItemNoincl",
                             "CountryName",
-                            "CountryCode",
+                            "CountryCodeExcludingIndia",
                             "DTAAarticle",
                             "RateAsPerTreaty",
                             "SecITAct",
@@ -25275,10 +25549,35 @@
                     "exclusiveMinimum": false
                 },
                 "ImproveDate": {
-                    "type": "string",
-                    "description": "Date in YYYY-MM-DD format",
-                    "pattern": "([12]\\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01]))"
-                },
+                    "enum": [
+						"2001-02",
+						"2002-03",
+						"2003-04",
+						"2004-05",
+						"2005-06",
+						"2006-07",
+						"2007-08",
+						"2008-09",
+						"2009-10",
+						"2010-11",
+						"2011-12",
+						"2012-13",
+						"2013-14",
+						"2014-15",
+						"2015-16",
+						"2016-17",
+						"2017-18",
+						"2018-19",
+						"2019-20",
+						"2020-21",
+						"2021-22"
+					],
+					"allOf": [
+						{
+							"$ref": "#/definitions/nonEmptyString"
+						}
+					]
+				},
                 "CostOfImpIndex": {
                     "type": "integer",
                     "maximum": 99999999999999,
@@ -25491,7 +25790,7 @@
                     ]
                 },
                 "ISINCode": {
-                    "description": "IN[0-9A-Z]{10} - On or Before 31st January 2018; INNOTREQUIRD - After 31st January 2018",
+                    "description": "IN[0-9A-Z]{10} - On or Before 31st January 2018; INNOTREQUIRD - After 31st January 2018; INNOTAVAILAB - In case security/Share does not have ISIN Code",
                     "pattern": "IN[0-9A-Z]{10}|INNOTREQUIRD",
                     "allOf": [
                         {
@@ -25647,8 +25946,8 @@
                             "CountryName": {
                                 "$ref": "#/definitions/CountryName"
                             },
-                            "CountryCode": {
-                                "$ref": "#/definitions/CountryCode"
+                            "CountryCodeExcludingIndia": {
+                                "$ref": "#/definitions/CountryCodeExcludingIndia"
                             },
                             "DTAAarticle": {
                                 "$ref": "#/definitions/DTAAarticle"
@@ -25660,7 +25959,7 @@
                                 "$ref": "#/definitions/TaxRescertifiedFlag"
                             },
                             "SecITAct": {
-                                "description": "56i:56(2)(i)- Dividends; 56:56(2)- Interest; 562iii : 56(2)(iii)-Rental income from machinery, plants, buildings etc.; 562x : 56(2)(x) - Income under section 56(2)(x); 5A1ai:115A(1)(a)(i)- Dividends interest and income from units purchase in foreign currency; 5A1aii:115A(1)(a)(ii)- Interest received from govt/Indian Concerns recived in Foreign Currency; 5A1aiia:115A(1) (a)(iia) -Interest from Infrastructure Debt Fund; 5A1aiiaa:115A(1) (a)(iiaa) -Interest as per Sec. 194LC; 5A1aiiab:115A(1) (a)(iiab) -Interest as per Sec. 194LD; 5A1aiiac: 115A(1)(a)(iiac) -Interest as per Sec. 194LBA; 5A1aiii:115A(1) (a)(iii) - Income received in respect of units of UTI purchased in Foreign Currency; FA:Para E II of Part I of Ist Sch of FA - Income from royalty or technical services - Non-domestic company; 5A1bA:115A(1)(b)(A)- Income from royalty and technical services; 5AB1a:115AB(1)(a) - Income in respect of units - off -shore fund; 5AC1ab:115AC(1)(a and b) - Income from bonds or GDR purchased in foreign currency - non-resident; 5AD1i:115AD(1)(i) -Income received by an FII in respect of securities (other than units as per Sec 115AB); 5AD1iP:115AD(1)(i) -Income received by an FII in respect of bonds or government securities as per Sec 194LD ; 5BBA:115BBA - Tax on non-residents sportsmen or sports associations; 5BBG:Tax on Transfer of corbon credits; 5BBC:Anonymous donations; 5BB:Winnings from lotteries, crossword puzzles etc.; 5BBD:Tax on dividend received by an Indian company from specified foreign company; PTI_5A1ai - PTI - Dividends in the case of non-residents; PTI_5A1aii - PTI - Interest received in the case of non-residents; PTI_5A1aiia - PTI - Interest received by non-resident from infrastructure debt fund; PTI_5A1aiiaa -PTI - Income received by non-resident as referred in section 194LC; PTI_5A1aiiab -PTI - Income received by non-resident as referred in section 194LD; PTI_5A1aiiac -PTI - Income received by non-resident as referred in section 194LBA; PTI_5A1aiii - PTI - Income from units purchased in foreign currency in the case of non-residents; PTI_FA:Para E II of Part I of Ist Sch of FA - Income from royalty or technical services - Non-domestic company; PTI_5A1bA - PTI - Income from royalty in case of non-resident in pursuance of an agreement made after 31-03-1976; PTI_5AB1a:PTI - 115AB(1)(a) - Income in respect of units - off -shore fund; PTI_5AC1ab - PTI -Income from bonds or GDR purchased in foreign currency in case of a non-resident ; PTI_5AD1i - PTI-115AD(1)(i) -Income received by an FII in respect of securities (other than units as per Sec 115AB); PTI_5AD1iP - PTI-115AD(1)(i) -Income received by an FII in respect of bonds or government securities as per Sec 194LD ; PTI_5BBA - PTI-115BBA - Tax on non-residents sportsmen or sports associations; PTI_5BBC - PTI-115BBC - Anonymous donations; PTI_5BBG - PTI-115BBG - Tax on income from transfer of carbon credits; PTI_5BB - PTI-115BB - Winnings from lotteries, crossword puzzles etc; PTI_5BBF - PTI-Tax on income from patent; PTI_5BBD: PTI-Tax on dividend received by an Indian company from specified foreign company; 5A1aiiaaP:115A(1) (a)(iiaa) -Income received by non-resident as referred in proviso to section 194LC(1); 5A1aiiaci:115A(1)(a)(iiac) - Distributed income being Dividend referred to  in section 194LBA; PTI_5A1aiiaaP - PTI-115A(1)(a)(iiaa) -Income received by non-resident as referred in proviso to section 194LC(1); PTI_5A1aiiaci - PTI-115A(1)(a)(iiac) -Distributed income being Dividend referred to  in section 194LBA; PTI_5AD1iDiv - PTI-115AD(1)(i) - Income (being dividend) received by an FII in respect of securities (other than units referred to in section 115AB); 5AD1iDiv - 115AD(1)(i) - Income (being dividend) received by an FII in respect of securities (other than units referred to in section 115AB); 5AD1IBd - 115AD(1)(i)(B) - Income (being dividend) received by a specified fund in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i); 5AD1IB - 115AD(1)(i)(B) - Income (other than dividend) received by a specified fund in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i); PTI_5AD1IBd - PTI- 115AD(1)(i)(B) - PTI- Income (being dividend) received by a specified fund in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i); PTI_5AD1IB - PTI-115AD(1)(i)(B) - PTI- Income (other than dividend) received by a specified fund in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i)",
+                                "description": "56i:56(2)(i)- Dividends; 56:56(2)- Interest; 562iii : 56(2)(iii)-Rental income from machinery, plants, buildings etc.; 562x : 56(2)(x) - Income under section 56(2)(x); 5A1ai:115A(1)(a)(i)- Dividends interest and income from units purchase in foreign currency; 5A1aii:115A(1)(a)(ii)- Interest received from govt/Indian Concerns recived in Foreign Currency; 5A1aiia:115A(1) (a)(iia) -Interest from Infrastructure Debt Fund; 5A1aiiaa:115A(1) (a)(iiaa) -Interest as per Sec. 194LC; 5A1aiiab:115A(1) (a)(iiab) -Interest as per Sec. 194LD; 5A1aiiac: 115A(1)(a)(iiac) -Interest as per Sec. 194LBA; 5A1aiii:115A(1) (a)(iii) - Income received in respect of units of UTI purchased in Foreign Currency; FA:Para E II of Part I of Ist Sch of FA - Income from royalty or technical services - Non-domestic company; 5A1bA:115A(1)(b)(A)- Income from royalty and technical services; 5AB1a:115AB(1)(a) - Income in respect of units - off -shore fund; 5AC1ab:115AC(1)(a) - Income by way of interest on bonds purchased in foreign currency - non-resident; 5AC1abD - 115AC(1)(b) - Income by way of Dividend on GDRs purchased in foreign currency - non-resident; 5AD1i:115AD(1)(i) -Income received by an FII in respect of securities (other than units as per Sec 115AB); 5AD1iP:115AD(1)(i) -Income received by an FII in respect of bonds or government securities as per Sec 194LD ; 5BBA:115BBA - Tax on non-residents sportsmen or sports associations; 5BBG:Tax on Transfer of corbon credits; 5BBC:Anonymous donations; 5BB:Winnings from lotteries, crossword puzzles etc.; 5BBD:Tax on dividend received by an Indian company from specified foreign company; PTI_5A1ai - PTI - Dividends in the case of non-residents; PTI_5A1aii - PTI - Interest received in the case of non-residents; PTI_5A1aiia - PTI - Interest received by non-resident from infrastructure debt fund; PTI_5A1aiiaa -PTI - Income received by non-resident as referred in section 194LC; PTI_5A1aiiab -PTI - Income received by non-resident as referred in section 194LD; PTI_5A1aiiac -PTI - Income received by non-resident as referred in section 194LBA; PTI_5A1aiii - PTI - Income from units purchased in foreign currency in the case of non-residents; PTI_FA:Para E II of Part I of Ist Sch of FA - Income from royalty or technical services - Non-domestic company; PTI_5A1bA - PTI - Income from royalty in case of non-resident in pursuance of an agreement made after 31-03-1976; PTI_5AB1a:PTI - 115AB(1)(a) - Income in respect of units - off -shore fund; PTI_5AC1ab - PTI-115AC(1)(a) -Income by way of interest on bonds purchased in foreign currency - non-resident; PTI_5AC1abD - PTI-115AC(1)(b) - Income by way of Dividend on GDRs purchased in foreign currency - non-resident; PTI_5AD1i - PTI-115AD(1)(i) -Income received by an FII in respect of securities (other than units as per Sec 115AB); PTI_5AD1iP - PTI-115AD(1)(i) -Income received by an FII in respect of bonds or government securities as per Sec 194LD ; PTI_5BBA - PTI-115BBA - Tax on non-residents sportsmen or sports associations; PTI_5BBG - PTI-115BBG - Tax on income from transfer of carbon credits; PTI_5BB - PTI-115BB - Winnings from lotteries, crossword puzzles etc; PTI_5BBF - PTI-Tax on income from patent; PTI_5BBD: PTI-Tax on dividend received by an Indian company from specified foreign company; 5A1aiiaaP:115A(1) (a)(iiaa) -Income received by non-resident as referred in proviso to section 194LC(1); PTI_5A1aiiaaP - PTI-115A(1)(a)(iiaa) -Income received by non-resident as referred in proviso to section 194LC(1); PTI_5AD1iDiv - PTI-115AD(1)(i) - Income (being dividend) received by an FII in respect of securities (other than units referred to in section 115AB); 5AD1iDiv - 115AD(1)(i) - Income (being dividend) received by an FII in respect of securities (other than units referred to in section 115AB); 5AD1IBd - 115AD(1)(i)(B) - Income (being dividend) received by a specified fund in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i); 5AD1IB - 115AD(1)(i)(B) - Income (other than dividend) received by a specified fund in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i); PTI_5AD1IBd - PTI- 115AD(1)(i)(B) - PTI- Income (being dividend) received by a specified fund in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i); PTI_5AD1IB - PTI-115AD(1)(i)(B) - PTI- Income (other than dividend) received by a specified fund in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i)",
                                 "enum": [
                                     "56i",
                                     "56",
@@ -25677,6 +25976,7 @@
                                     "5A1bA",
                                     "5AB1a",
                                     "5AC1ab",
+									"5AC1abD",
                                     "5AD1i",
                                     "5AD1iP",
                                     "5BBA",
@@ -25696,19 +25996,17 @@
                                     "PTI_5A1bA",
                                     "PTI_5AB1a",
                                     "PTI_5AC1ab",
+									"PTI_5AC1abD",
                                     "PTI_5AD1i",
                                     "PTI_5AD1iP",
                                     "PTI_5BBA",
-                                    "PTI_5BBC",
                                     "PTI_5BBG",
                                     "PTI_5BB",
                                     "PTI_5BBF",
                                     "PTI_5BBD",
                                     "5A1aiiaaP",
-                                    "5A1aiiaci",
                                     "5AD1iDiv",
                                     "PTI_5A1aiiaaP",
-                                    "PTI_5A1aiiaci",
                                     "PTI_5AD1iDiv",
 									"5AD1IBd",
 									"5AD1IB",
@@ -25732,7 +26030,7 @@
                             "DTAAamt",
                             "NatureOfIncome",
                             "CountryName",
-                            "CountryCode",
+                            "CountryCodeExcludingIndia",
                             "DTAAarticle",
                             "RateAsPerTreaty",
                             "SecITAct",
@@ -26181,7 +26479,7 @@
                         "properties": {
                             "PrvYrInWhichAsstTrnsfrd": {
                                 "enum": [
-                                    "2017-18"
+                                    "2018-19"
                                 ],
                                 "allOf": [
                                     {
@@ -26260,8 +26558,8 @@
                             "CountryName": {
                                 "$ref": "#/definitions/CountryName"
                             },
-                            "CountryCode": {
-                                "$ref": "#/definitions/CountryCode"
+                            "CountryCodeExcludingIndia": {
+                                "$ref": "#/definitions/CountryCodeExcludingIndia"
                             },
                             "DTAAarticle": {
                                 "$ref": "#/definitions/DTAAarticle"
@@ -26286,7 +26584,7 @@
                             "DTAAamt",
                             "ItemNoincl",
                             "CountryName",
-                            "CountryCode",
+                            "CountryCodeExcludingIndia",
                             "DTAAarticle",
                             "RateAsPerTreaty",
                             "SecITAct",
@@ -26389,7 +26687,7 @@
                         "properties": {
                             "PrvYrInWhichAsstTrnsfrd": {
                                 "enum": [
-                                    "2017-18"
+                                    "2018-19"
                                 ],
                                 "allOf": [
                                     {
