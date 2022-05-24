@@ -1810,11 +1810,7 @@
                     "description": "Date in format YYYY-MM-DD on or after 2022-04-01",
                     "pattern": "([12]\\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01]))"
                 }
-            },
-            "required": [
-                "AuditedSection",
-                "OthAuditDtls"
-            ]
+            }
         },
         "AuditReportDetails": {
             "type": "object",
@@ -1893,12 +1889,7 @@
                     "description": "Date in format YYYY-MM-DD on or after 2022-04-01",
                     "pattern": "([12]\\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01]))"
                 }
-            },
-            "required": [
-                "AuditReportAct",
-                "AuditedSection",
-                "OthAuditDtlsOthThanITAct"
-            ]
+            }
         },
         "NatOfBus": {
             "type": "object",
